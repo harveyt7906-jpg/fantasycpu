@@ -1,0 +1,99 @@
+import os
+import json
+import datetime
+from pathlib import Path
+import psycopg2  # PostgreSQL
+from psycopg2.extras import Json
+
+# Import your existing utility functions
+from utils_core import (
+    load_roster,
+    load_matchup,
+    fetch_vegas_odds,
+    fetch_weather_data,
+    fetch_sleeper_players,
+    fetch_yahoo_players,
+    fetch_yahoo_transactions
+)
+
+def run_data_collection():
+    # Prepare output folder
+    out_dir = Path("out/cron_logs")
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    timestamp = datetime.datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    snapshot = {"timestamp": timestamp}
+
+    # 🔹 Collect data from each API
+    try:
+        snapshot["roster"] = load_roster()
+    except Exception as e:
+        snapshot["roster_error"] = str(e)
+
+    try:
+        snapshot["matchup"] = load_matchup()
+    except Exception as e:
+        snapshot["matchup_error"] = str(e)
+
+    try:
+        snapshot["vegas_odds"] = fetch_vegas_odds()
+    except Exception as e:
+        snapshot["vegas_error"] = str(e)
+
+    try:
+        snapshot["weather"] = fetch_weather_data()
+    except Exception as e:
+        snapshot["weather_error"] = str(e)
+
+    try:
+        snapshot["sleeper_players"] = fetch_sleeper_players()
+    except Exception as e:
+        snapshot["sleeper_error"] = str(e)
+
+    try:
+        snapshot["yahoo_players"] = fetch_yahoo_players()
+    except Exception as e:
+        snapshot["yahoo_players_error"] = str(e)
+
+    try:
+        snapshot["yahoo_transactions"] = fetch_yahoo_transactions()
+    except Exception as e:
+        snapshot["yahoo_transactions_error"] = str(e)
+
+    # 🔹 Save JSON snapshot to file
+    file_path = out_dir / f"snapshot_{timestamp}.json"
+    with open(file_path, "w") as f:
+        json.dump(snapshot, f, indent=2)
+
+    print(f"[Cron Job] JSON snapshot saved → {file_path}")
+
+    # 🔹 Also save snapshot to Postgres (if DATABASE_URL is set)
+    db_url = os.getenv("DATABASE_URL")
+    if db_url:
+        try:
+            conn = psycopg2.connect(db_url)
+            cur = conn.cursor()
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS snapshots (
+                    id SERIAL PRIMARY KEY,
+                    timestamp TEXT,
+                    data JSONB
+                )
+                """
+            )
+            cur.execute(
+                "INSERT INTO snapshots (timestamp, data) VALUES (%s, %s)",
+                (timestamp, Json(snapshot)),
+            )
+            conn.commit()
+            cur.close()
+            conn.close()
+            print("[Cron Job] Snapshot inserted into Postgres ✅")
+        except Exception as e:
+            print(f"[Cron Job] Postgres insert failed ❌: {e}")
+    else:
+        print("[Cron Job] Skipped Postgres (DATABASE_URL not set)")
+
+if __name__ == "__main__":
+    run_data_collection()

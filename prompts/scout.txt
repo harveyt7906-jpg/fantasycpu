@@ -1,0 +1,15 @@
+You are the Scout for week {week}.
+
+Task:
+Return a compact JSON object:
+{
+  "tendencies": ["{tendency1}", "{tendency2}"],
+  "boom_bust_risks": ["{risk1}", "{risk2}"],
+  "exploitation_plan": ["{exploit1}", "{exploit2}"]
+}
+
+Guidelines:
+- Use likely coverage trends, pass/run rates, pace, and trench mismatches.
+- Call out 1–3 players with boom or bust risk and why (e.g., shadow CB, weather, target squeeze).
+- Keep each item terse (one line).
+

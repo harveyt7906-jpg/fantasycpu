@@ -1,0 +1,12 @@
+__pycache__/
+*.bak
+*.log
+logs/
+out/
+*.pem
+token.json
+yahoo_token.json
+*.sqlite
+*.db
+.env
+

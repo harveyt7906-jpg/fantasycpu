@@ -1,0 +1,8 @@
+flask
+flask-cors
+python-dotenv
+requests
+yahoo_oauth
+gunicorn
+anthropic>=0.25.0
+psycopg2-binary
