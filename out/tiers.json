@@ -1,0 +1,53 @@
+{
+  "QB": [
+    "Josh Allen",
+    "Patrick Mahomes",
+    "Jalen Hurts",
+    "Lamar Jackson",
+    "Joe Burrow",
+    "C.J. Stroud",
+    "Justin Herbert"
+  ],
+  "RB": [
+    "Christian McCaffrey",
+    "Breece Hall",
+    "Bijan Robinson",
+    "Saquon Barkley",
+    "Jonathan Taylor",
+    "Jahmyr Gibbs",
+    "Josh Jacobs",
+    "Kyren Williams",
+    "De'Von Achane"
+  ],
+  "WR": [
+    "Justin Jefferson",
+    "Ja'Marr Chase",
+    "CeeDee Lamb",
+    "Tyreek Hill",
+    "Amon-Ra St. Brown",
+    "A.J. Brown",
+    "Garrett Wilson",
+    "Puka Nacua",
+    "Brandon Aiyuk"
+  ],
+  "TE": [
+    "Travis Kelce",
+    "Sam LaPorta",
+    "Mark Andrews",
+    "T.J. Hockenson",
+    "Trey McBride"
+  ],
+  "K": [
+    "Justin Tucker",
+    "Harrison Butker",
+    "Jake Elliott",
+    "Evan McPherson"
+  ],
+  "DEF": [
+    "49ers",
+    "Cowboys",
+    "Ravens",
+    "Bills",
+    "Jets"
+  ]
+}

@@ -1,0 +1,504 @@
+RK,TIERS,PLAYER NAME,TEAM,POS,BYE,SOS,ECR VS ADP,Team
+1,1,Ja'Marr Chase,CIN,WR1,10,3 out of 5 stars,0,UNK
+2,1,Bijan Robinson,ATL,RB1,5,4 out of 5 stars,0,UNK
+3,1,Saquon Barkley,PHI,RB2,9,3 out of 5 stars,0,UNK
+4,1,Justin Jefferson,MIN,WR2,6,2 out of 5 stars,+1,UNK
+5,1,CeeDee Lamb,DAL,WR3,10,2 out of 5 stars,+1,UNK
+6,1,Jahmyr Gibbs,DET,RB3,8,2 out of 5 stars,-2,UNK
+7,2,Derrick Henry,BAL,RB4,7,4 out of 5 stars,+4,UNK
+8,2,Nico Collins,HOU,WR4,6,4 out of 5 stars,+4,UNK
+9,2,Malik Nabers,NYG,WR5,14,2 out of 5 stars,-1,UNK
+10,2,Brian Thomas Jr.,JAC,WR6,8,4 out of 5 stars,+4,UNK
+11,2,Puka Nacua,LAR,WR7,8,3 out of 5 stars,+2,UNK
+12,3,Ashton Jeanty,LV,RB5,8,2 out of 5 stars,-3,UNK
+13,3,Christian McCaffrey,SF,RB6,14,3 out of 5 stars,-3,UNK
+14,3,Drake London,ATL,WR8,5,3 out of 5 stars,+5,UNK
+15,3,Jonathan Taylor,IND,RB7,11,2 out of 5 stars,+6,UNK
+16,3,A.J. Brown,PHI,WR9,9,3 out of 5 stars,+6,UNK
+17,3,Amon-Ra St. Brown,DET,WR10,8,3 out of 5 stars,-10,UNK
+18,3,Josh Jacobs,GB,RB8,5,4 out of 5 stars,-1,UNK
+19,3,George Kittle,SF,TE1,14,3 out of 5 stars,+20,UNK
+20,3,Brock Bowers,LV,TE2,8,2 out of 5 stars,-2,UNK
+21,4,Bucky Irving,TB,RB9,9,3 out of 5 stars,-6,UNK
+22,4,Ladd McConkey,LAC,WR11,12,3 out of 5 stars,+4,UNK
+23,4,Kyren Williams,LAR,RB10,8,3 out of 5 stars,+2,UNK
+24,4,De'Von Achane,MIA,RB11,12,4 out of 5 stars,-8,UNK
+25,4,Josh Allen,BUF,QB1,7,4 out of 5 stars,-2,UNK
+26,4,Lamar Jackson,BAL,QB2,7,3 out of 5 stars,-2,UNK
+27,4,Chase Brown,CIN,RB12,10,4 out of 5 stars,-7,UNK
+28,4,Tee Higgins,CIN,WR12,10,3 out of 5 stars,+5,UNK
+29,4,Mike Evans,TB,WR13,9,3 out of 5 stars,+13,UNK
+30,4,Trey McBride,ARI,TE3,8,5 out of 5 stars,-3,UNK
+31,4,Jayden Daniels,WAS,QB3,12,2 out of 5 stars,-3,UNK
+32,4,James Cook,BUF,RB13,7,4 out of 5 stars,-1,UNK
+33,4,Jaxon Smith-Njigba,SEA,WR14,8,3 out of 5 stars,-4,UNK
+34,5,Tyreek Hill,MIA,WR15,12,3 out of 5 stars,-4,UNK
+35,5,Davante Adams,LAR,WR16,8,3 out of 5 stars,+9,UNK
+36,5,Omarion Hampton,LAC,RB14,12,2 out of 5 stars,-4,UNK
+37,5,Jalen Hurts,PHI,QB4,9,3 out of 5 stars,+4,UNK
+38,5,Marvin Harrison Jr.,ARI,WR17,8,4 out of 5 stars,+2,UNK
+39,5,Terry McLaurin,WAS,WR18,12,3 out of 5 stars,-4,UNK
+40,5,Garrett Wilson,NYJ,WR19,9,4 out of 5 stars,-3,UNK
+41,5,Kenneth Walker III,SEA,RB15,8,3 out of 5 stars,+2,UNK
+42,5,DK Metcalf,PIT,WR20,5,4 out of 5 stars,+8,UNK
+43,5,Chuba Hubbard,CAR,RB16,14,3 out of 5 stars,+2,UNK
+44,5,Joe Burrow,CIN,QB5,10,2 out of 5 stars,-8,UNK
+45,5,Breece Hall,NYJ,RB17,9,5 out of 5 stars,-11,UNK
+46,5,Courtland Sutton,DEN,WR21,12,3 out of 5 stars,+3,UNK
+47,5,TreVeyon Henderson,NE,RB18,14,4 out of 5 stars,-1,UNK
+48,5,Jameson Williams,DET,WR22,8,3 out of 5 stars,+10,UNK
+49,5,James Conner,ARI,RB19,8,3 out of 5 stars,-2,UNK
+50,5,Alvin Kamara,NO,RB20,11,4 out of 5 stars,-12,UNK
+51,6,Xavier Worthy,KC,WR23,10,3 out of 5 stars,+2,UNK
+52,6,DJ Moore,CHI,WR24,5,2 out of 5 stars,-4,UNK
+53,6,Calvin Ridley,TEN,WR25,10,4 out of 5 stars,+13,UNK
+54,6,Tetairoa McMillan,CAR,WR26,14,4 out of 5 stars,-2,UNK
+55,6,George Pickens,DAL,WR27,10,2 out of 5 stars,+8,UNK
+56,6,DeVonta Smith,PHI,WR28,9,3 out of 5 stars,-1,UNK
+57,6,David Montgomery,DET,RB21,8,2 out of 5 stars,-1,UNK
+58,6,D'Andre Swift,CHI,RB22,5,3 out of 5 stars,+3,UNK
+59,6,Tony Pollard,TEN,RB23,10,2 out of 5 stars,+6,UNK
+60,6,Zay Flowers,BAL,WR29,7,3 out of 5 stars,+2,UNK
+61,6,RJ Harvey,DEN,RB24,12,2 out of 5 stars,-10,UNK
+62,6,Sam LaPorta,DET,TE4,8,3 out of 5 stars,-3,UNK
+63,6,Isiah Pacheco,KC,RB25,10,2 out of 5 stars,-6,UNK
+64,6,Patrick Mahomes II,KC,QB6,10,3 out of 5 stars,-4,UNK
+65,6,Jaylen Waddle,MIA,WR30,12,3 out of 5 stars,+7,UNK
+66,6,Aaron Jones Sr.,MIN,RB26,6,3 out of 5 stars,-2,UNK
+67,6,Baker Mayfield,TB,QB7,9,2 out of 5 stars,+4,UNK
+68,6,Mark Andrews,BAL,TE5,7,3 out of 5 stars,+15,UNK
+69,7,Bo Nix,DEN,QB8,12,4 out of 5 stars,+8,UNK
+70,7,Tyrone Tracy Jr.,NYG,RB27,14,3 out of 5 stars,+3,UNK
+71,7,Kaleb Johnson,PIT,RB28,5,4 out of 5 stars,+5,UNK
+72,7,T.J. Hockenson,MIN,TE6,6,3 out of 5 stars,-4,UNK
+73,7,Travis Hunter,JAC,WR31,8,4 out of 5 stars,-4,UNK
+74,7,Ricky Pearsall,SF,WR32,14,4 out of 5 stars,+6,UNK
+75,7,Rome Odunze,CHI,WR33,5,2 out of 5 stars,+3,UNK
+76,7,Kyler Murray,ARI,QB9,8,4 out of 5 stars,+19,UNK
+77,7,Dak Prescott,DAL,QB10,10,2 out of 5 stars,+28,UNK
+78,7,Jordan Mason,MIN,RB29,6,3 out of 5 stars,+19,UNK
+79,7,Chris Olave,NO,WR34,11,4 out of 5 stars,-4,UNK
+80,7,Emeka Egbuka,TB,WR35,9,3 out of 5 stars,+13,UNK
+81,7,Travis Kelce,KC,TE7,10,3 out of 5 stars,-11,UNK
+82,7,Rashee Rice,KC,WR36,10,3 out of 5 stars,-28,UNK
+83,7,Jerry Jeudy,CLE,WR37,9,2 out of 5 stars,-16,UNK
+84,7,Jaylen Warren,PIT,RB30,5,4 out of 5 stars,-5,UNK
+85,7,Deebo Samuel Sr.,WAS,WR38,12,3 out of 5 stars,-3,UNK
+86,7,Jordan Addison,MIN,WR39,6,2 out of 5 stars,-5,UNK
+87,7,Brock Purdy,SF,QB11,14,4 out of 5 stars,+24,UNK
+88,7,Tucker Kraft,GB,TE8,5,2 out of 5 stars,+24,UNK
+89,7,David Njoku,CLE,TE9,9,3 out of 5 stars,+11,UNK
+90,7,Travis Etienne Jr.,JAC,RB31,8,2 out of 5 stars,-6,UNK
+91,7,Jacory Croskey-Merritt,WAS,RB32,12,2 out of 5 stars,+86,UNK
+92,7,Justin Fields,NYJ,QB12,9,5 out of 5 stars,+28,UNK
+93,8,Zach Charbonnet,SEA,RB33,8,3 out of 5 stars,+1,UNK
+94,8,Tyler Warren,IND,TE10,11,3 out of 5 stars,+2,UNK
+95,8,Stefon Diggs,NE,WR40,14,3 out of 5 stars,-8,UNK
+96,8,Justin Herbert,LAC,QB13,12,3 out of 5 stars,+18,UNK
+97,8,Matthew Golden,GB,WR41,5,2 out of 5 stars,-7,UNK
+98,8,Jauan Jennings,SF,WR42,14,4 out of 5 stars,+5,UNK
+99,8,Tank Bigsby,JAC,RB34,8,2 out of 5 stars,+18,UNK
+100,8,Jayden Reed,GB,WR43,5,2 out of 5 stars,+6,UNK
+101,8,Drake Maye,NE,QB14,14,5 out of 5 stars,+27,UNK
+102,8,Javonte Williams,DAL,RB35,10,2 out of 5 stars,-4,UNK
+103,8,Jakobi Meyers,LV,WR44,8,4 out of 5 stars,-17,UNK
+104,8,Caleb Williams,CHI,QB15,5,2 out of 5 stars,+3,UNK
+105,8,Evan Engram,DEN,TE11,12,3 out of 5 stars,-16,UNK
+106,8,Jared Goff,DET,QB16,8,2 out of 5 stars,-5,UNK
+107,8,J.K. Dobbins,DEN,RB36,12,2 out of 5 stars,+1,UNK
+108,8,Rhamondre Stevenson,NE,RB37,14,4 out of 5 stars,+1,UNK
+109,8,Jordan Love,GB,QB17,5,2 out of 5 stars,+23,UNK
+110,8,Trevor Lawrence,JAC,QB18,8,3 out of 5 stars,+29,UNK
+111,8,Khalil Shakir,BUF,WR45,7,3 out of 5 stars,-20,UNK
+112,8,Keon Coleman,BUF,WR46,7,3 out of 5 stars,+4,UNK
+113,8,Cam Skattebo,NYG,RB38,14,3 out of 5 stars,-11,UNK
+114,8,C.J. Stroud,HOU,QB19,6,3 out of 5 stars,+17,UNK
+115,8,Kyle Pitts Sr.,ATL,TE12,5,3 out of 5 stars,+22,UNK
+116,8,J.J. McCarthy,MIN,QB20,6,2 out of 5 stars,+18,UNK
+117,8,Josh Downs,IND,WR47,11,4 out of 5 stars,-4,UNK
+118,8,Dallas Goedert,PHI,TE13,9,3 out of 5 stars,+24,UNK
+119,9,Chris Godwin Jr.,TB,WR48,9,3 out of 5 stars,-34,UNK
+120,9,Dalton Kincaid,BUF,TE14,7,3 out of 5 stars,+5,UNK
+121,9,Austin Ekeler,WAS,RB39,12,2 out of 5 stars,0,UNK
+122,9,Cooper Kupp,SEA,WR49,8,3 out of 5 stars,-34,UNK
+123,9,Braelon Allen,NYJ,RB40,9,5 out of 5 stars,+20,UNK
+124,9,Darnell Mooney,ATL,WR50,5,3 out of 5 stars,-2,UNK
+125,9,Najee Harris,LAC,RB41,12,2 out of 5 stars,-21,UNK
+126,9,Michael Pittman Jr.,IND,WR51,11,4 out of 5 stars,-16,UNK
+127,9,Trey Benson,ARI,RB42,8,3 out of 5 stars,+9,UNK
+128,9,Ray Davis,BUF,RB43,7,4 out of 5 stars,+18,UNK
+129,9,Rashid Shaheed,NO,WR52,11,4 out of 5 stars,+9,UNK
+130,9,Colston Loveland,CHI,TE15,5,4 out of 5 stars,-15,UNK
+131,9,Brian Robinson Jr.,SF,RB44,14,3 out of 5 stars,-32,UNK
+132,9,Nick Chubb,HOU,RB45,6,2 out of 5 stars,+8,UNK
+133,9,Quinshon Judkins,CLE,RB46,9,4 out of 5 stars,-41,UNK
+134,9,Brandon Aiyuk,SF,WR53,14,4 out of 5 stars,-16,UNK
+135,9,Joe Mixon,HOU,RB47,6,2 out of 5 stars,-61,UNK
+136,9,Tua Tagovailoa,MIA,QB21,12,5 out of 5 stars,+15,UNK
+137,9,Rachaad White,TB,RB48,9,3 out of 5 stars,-10,UNK
+138,9,Jake Ferguson,DAL,TE16,10,2 out of 5 stars,-15,UNK
+139,9,Tyler Allgeier,ATL,RB49,5,4 out of 5 stars,+9,UNK
+140,9,Rashod Bateman,BAL,WR54,7,3 out of 5 stars,+23,UNK
+141,9,Jaydon Blue,DAL,RB50,10,2 out of 5 stars,-17,UNK
+142,9,Christian Kirk,HOU,WR55,6,4 out of 5 stars,+3,UNK
+143,9,Bryce Young,CAR,QB22,14,3 out of 5 stars,+16,UNK
+144,9,Marvin Mims Jr.,DEN,WR56,12,3 out of 5 stars,-11,UNK
+145,9,Hunter Henry,NE,TE17,14,3 out of 5 stars,+10,UNK
+146,9,Bhayshul Tuten,JAC,RB51,8,2 out of 5 stars,-16,UNK
+147,9,Michael Penix Jr.,ATL,QB23,5,4 out of 5 stars,+10,UNK
+148,9,Jerome Ford,CLE,RB52,9,4 out of 5 stars,-13,UNK
+149,9,Dylan Sampson,CLE,RB53,9,4 out of 5 stars,0,UNK
+150,9,Tyjae Spears,TEN,RB54,10,2 out of 5 stars,-21,UNK
+151,9,Cedric Tillman,CLE,WR57,9,2 out of 5 stars,+14,UNK
+152,9,Luther Burden III,CHI,WR58,5,2 out of 5 stars,-8,UNK
+153,9,Jayden Higgins,HOU,WR59,6,4 out of 5 stars,-27,UNK
+154,10,Geno Smith,LV,QB24,8,3 out of 5 stars,+8,UNK
+155,10,Denver Broncos,DEN,DST1,12,4 out of 5 stars,-8,UNK
+156,10,Jonnu Smith,PIT,TE18,5,3 out of 5 stars,-37,UNK
+157,10,Matthew Stafford,LAR,QB25,8,3 out of 5 stars,+4,UNK
+158,10,Zach Ertz,WAS,TE19,12,3 out of 5 stars,-2,UNK
+159,10,Isaiah Likely,BAL,TE20,7,3 out of 5 stars,+9,UNK
+160,10,Romeo Doubs,GB,WR60,5,2 out of 5 stars,+28,UNK
+161,10,Philadelphia Eagles,PHI,DST2,9,2 out of 5 stars,-9,UNK
+162,10,Rico Dowdle,CAR,RB55,14,3 out of 5 stars,-21,UNK
+163,10,Keenan Allen,LAC,WR61,12,3 out of 5 stars,-9,UNK
+164,10,Marquise Brown,KC,WR62,10,3 out of 5 stars,-11,UNK
+165,10,Pittsburgh Steelers,PIT,DST3,5,3 out of 5 stars,-5,UNK
+166,10,Joshua Palmer,BUF,WR63,7,3 out of 5 stars,+18,UNK
+167,10,Tre' Harris,LAC,WR64,12,3 out of 5 stars,-17,UNK
+168,10,Baltimore Ravens,BAL,DST4,7,3 out of 5 stars,+17,UNK
+169,10,Adam Thielen,MIN,WR65,6,2 out of 5 stars,-2,UNK
+170,10,Kyle Williams,NE,WR66,14,3 out of 5 stars,+1,UNK
+171,10,Minnesota Vikings,MIN,DST5,6,2 out of 5 stars,+2,UNK
+172,10,DeMario Douglas,NE,WR67,14,3 out of 5 stars,+15,UNK
+173,10,Ollie Gordon II,MIA,RB56,12,4 out of 5 stars,+16,UNK
+174,10,Isaac Guerendo,SF,RB57,14,3 out of 5 stars,-8,UNK
+175,10,Quentin Johnston,LAC,WR68,12,3 out of 5 stars,+44,UNK
+176,10,Cam Ward,TEN,QB26,10,2 out of 5 stars,-18,UNK
+177,10,Sam Darnold,SEA,QB27,8,4 out of 5 stars,-7,UNK
+178,10,Wan'Dale Robinson,NYG,WR69,14,2 out of 5 stars,+4,UNK
+179,10,Jaylen Wright,MIA,RB58,12,4 out of 5 stars,+1,UNK
+180,10,Brenton Strange,JAC,TE21,8,3 out of 5 stars,-11,UNK
+181,10,Houston Texans,HOU,DST6,6,2 out of 5 stars,+2,UNK
+182,10,Roschon Johnson,CHI,RB59,5,3 out of 5 stars,+18,UNK
+183,10,Blake Corum,LAR,RB60,8,3 out of 5 stars,+13,UNK
+184,10,Buffalo Bills,BUF,DST7,7,5 out of 5 stars,+15,UNK
+185,10,Jalen Coker,CAR,WR70,14,4 out of 5 stars,+39,UNK
+186,10,Brandon Aubrey,DAL,K1,10,4 out of 5 stars,-8,UNK
+187,10,Xavier Legette,CAR,WR71,14,4 out of 5 stars,-11,UNK
+188,10,Kansas City Chiefs,KC,DST8,10,1 out of 5 stars,+20,UNK
+189,10,Detroit Lions,DET,DST9,8,1 out of 5 stars,+20,UNK
+190,11,Cade Otton,TB,TE22,9,3 out of 5 stars,-15,UNK
+191,11,Cameron Dicker,LAC,K2,12,5 out of 5 stars,+4,UNK
+192,11,DeAndre Hopkins,BAL,WR72,7,3 out of 5 stars,-28,UNK
+193,11,Jake Bates,DET,K3,8,1 out of 5 stars,+10,UNK
+194,11,Chig Okonkwo,TEN,TE23,10,3 out of 5 stars,-2,UNK
+195,11,Seattle Seahawks,SEA,DST10,8,3 out of 5 stars,+46,UNK
+196,11,Alec Pierce,IND,WR73,11,4 out of 5 stars,+15,UNK
+197,11,Green Bay Packers,GB,DST11,5,2 out of 5 stars,+28,UNK
+198,11,Wil Lutz,DEN,K4,12,5 out of 5 stars,+60,UNK
+199,11,Will Shipley,PHI,RB61,9,3 out of 5 stars,+2,UNK
+200,11,Los Angeles Rams,LAR,DST12,8,3 out of 5 stars,+39,UNK
+201,11,Woody Marks,HOU,RB62,6,2 out of 5 stars,+4,UNK
+202,11,Kendre Miller,NO,RB63,11,4 out of 5 stars,+27,UNK
+203,11,Ka'imi Fairbairn,HOU,K5,6,3 out of 5 stars,+9,UNK
+204,11,Chris Rodriguez Jr.,WAS,RB64,12,2 out of 5 stars,+29,UNK
+205,11,Mike Gesicki,CIN,TE24,10,2 out of 5 stars,+1,UNK
+206,11,Los Angeles Chargers,LAC,DST13,12,5 out of 5 stars,+64,UNK
+207,11,Chase McLaughlin,TB,K6,9,3 out of 5 stars,+30,UNK
+208,11,Pat Freiermuth,PIT,TE25,5,3 out of 5 stars,-17,UNK
+209,11,Chris Boswell,PIT,K7,5,1 out of 5 stars,+46,UNK
+210,11,Kyle Monangai,CHI,RB65,5,3 out of 5 stars,-38,UNK
+211,11,New York Jets,NYJ,DST14,9,5 out of 5 stars,+40,UNK
+212,11,DJ Giddens,IND,RB66,11,2 out of 5 stars,-10,UNK
+213,11,Aaron Rodgers,PIT,QB28,5,4 out of 5 stars,-32,UNK
+214,11,Kareem Hunt,KC,RB67,10,2 out of 5 stars,-28,UNK
+215,11,Michael Wilson,ARI,WR74,8,4 out of 5 stars,+41,UNK
+216,11,Darius Slayton,NYG,WR75,14,2 out of 5 stars,+37,UNK
+217,11,Evan McPherson,CIN,K8,10,1 out of 5 stars,+30,UNK
+218,11,Harrison Butker,KC,K9,10,3 out of 5 stars,+4,UNK
+219,11,MarShawn Lloyd,GB,RB68,5,4 out of 5 stars,+19,UNK
+220,11,Mason Taylor,NYJ,TE26,9,3 out of 5 stars,-41,UNK
+221,11,Keaton Mitchell,BAL,RB69,7,4 out of 5 stars,+7,UNK
+222,11,San Francisco 49ers,SF,DST15,14,5 out of 5 stars,-24,UNK
+223,11,Tyler Bass,BUF,K10,7,2 out of 5 stars,+12,UNK
+224,11,Adonai Mitchell,IND,WR76,11,4 out of 5 stars,+28,UNK
+225,11,Dalton Schultz,HOU,TE27,6,3 out of 5 stars,-12,UNK
+226,11,Pat Bryant,DEN,WR77,12,3 out of 5 stars,-11,UNK
+227,11,Andrei Iosivas,CIN,WR78,10,3 out of 5 stars,+57,UNK
+228,11,Jack Bech,LV,WR79,8,4 out of 5 stars,-54,UNK
+229,11,Jake Elliott,PHI,K11,9,2 out of 5 stars,+28,UNK
+230,11,Elic Ayomanor,TEN,WR80,10,4 out of 5 stars,+19,UNK
+231,11,Justice Hill,BAL,RB70,7,4 out of 5 stars,-38,UNK
+232,11,Jaylin Noel,HOU,WR81,6,4 out of 5 stars,-1,UNK
+233,11,Jalen McMillan,TB,WR82,9,3 out of 5 stars,-26,UNK
+234,11,Miles Sanders,DAL,RB71,10,2 out of 5 stars,+9,UNK
+235,11,Calvin Austin III,PIT,WR83,5,4 out of 5 stars,+37,UNK
+236,12,Dontayvion Wicks,GB,WR84,5,2 out of 5 stars,+27,UNK
+237,12,Dameon Pierce,HOU,RB72,6,2 out of 5 stars,+24,UNK
+238,12,Tahj Brooks,CIN,RB73,10,4 out of 5 stars,-8,UNK
+239,12,Juwan Johnson,NO,TE28,11,3 out of 5 stars,+7,UNK
+240,12,Daniel Jones,IND,QB29,11,3 out of 5 stars,-26,UNK
+241,12,Elijah Arroyo,SEA,TE29,8,4 out of 5 stars,-7,UNK
+242,12,Jarquez Hunter,LAR,RB74,8,3 out of 5 stars,-25,UNK
+243,12,Ja'Tavion Sanders,CAR,TE30,14,4 out of 5 stars,-27,UNK
+244,12,Matt Gay,WAS,K12,12,3 out of 5 stars,+38,UNK
+245,12,Tyler Lockett,TEN,WR85,10,4 out of 5 stars,-1,UNK
+246,12,Younghoe Koo,ATL,K13,5,4 out of 5 stars,+54,UNK
+247,12,Sean Tucker,TB,RB75,9,3 out of 5 stars,+34,UNK
+248,12,Dont'e Thornton Jr.,LV,WR86,8,4 out of 5 stars,-25,UNK
+249,12,Devin Neal,NO,RB76,11,4 out of 5 stars,-9,UNK
+250,12,Tory Horton,SEA,WR87,8,3 out of 5 stars,+16,UNK
+251,12,Brashard Smith,KC,RB77,10,2 out of 5 stars,-47,UNK
+252,12,Russell Wilson,NYG,QB30,14,1 out of 5 stars,-58,UNK
+253,12,Dyami Brown,JAC,WR88,8,4 out of 5 stars,+16,UNK
+254,12,Dallas Cowboys,DAL,DST16,10,0 out of 5 stars,+11,UNK
+255,12,Tampa Bay Buccaneers,TB,DST17,9,3 out of 5 stars,-35,UNK
+256,12,Jalen Royals,KC,WR89,10,3 out of 5 stars,-11,UNK
+257,12,Cole Kmet,CHI,TE31,5,4 out of 5 stars,+7,UNK
+258,12,Isaac TeSlaa,DET,WR90,8,3 out of 5 stars,-31,UNK
+259,12,Raheem Mostert,LV,RB78,8,2 out of 5 stars,+20,UNK
+260,12,Roman Wilson,PIT,WR91,5,4 out of 5 stars,-10,UNK
+261,12,Theo Johnson,NYG,TE32,14,2 out of 5 stars,-19,UNK
+262,12,Devaughn Vele,NO,WR92,11,4 out of 5 stars,-,UNK
+263,12,Elijah Mitchell,KC,RB79,10,2 out of 5 stars,+32,UNK
+264,12,Jason Sanders,MIA,K14,12,2 out of 5 stars,+43,UNK
+265,12,Harold Fannin Jr.,CLE,TE33,9,3 out of 5 stars,-5,UNK
+266,12,Noah Gray,KC,TE34,10,3 out of 5 stars,+25,UNK
+267,12,Jalen Tolbert,DAL,WR93,10,2 out of 5 stars,+59,UNK
+268,12,Joe Flacco,CLE,QB31,9,2 out of 5 stars,-42,UNK
+269,12,Anthony Richardson Sr.,IND,QB32,11,3 out of 5 stars,-79,UNK
+270,12,Jaleel McLaughlin,DEN,RB80,12,2 out of 5 stars,-3,UNK
+271,12,Joshua Karty,LAR,K15,8,2 out of 5 stars,+46,UNK
+272,12,Kenneth Gainwell,PIT,RB81,5,4 out of 5 stars,+20,UNK
+273,12,Trevor Etienne,CAR,RB82,14,3 out of 5 stars,+5,UNK
+274,12,Devin Singletary,NYG,RB83,14,3 out of 5 stars,+31,UNK
+275,12,Brandin Cooks,NO,WR94,11,4 out of 5 stars,+5,UNK
+276,12,Nick Westbrook-Ikhine,MIA,WR95,12,3 out of 5 stars,-,UNK
+277,12,Kayshon Boutte,NE,WR96,14,3 out of 5 stars,+6,UNK
+278,12,Malik Washington,MIA,WR97,12,3 out of 5 stars,+34,UNK
+279,12,Ty Johnson,BUF,RB84,7,4 out of 5 stars,-,UNK
+280,12,Amari Cooper,LV,WR98,8,4 out of 5 stars,-83,UNK
+281,12,Elijah Moore,BUF,WR99,7,3 out of 5 stars,-,UNK
+282,12,Darren Waller,MIA,TE35,12,3 out of 5 stars,-61,UNK
+283,12,Isaiah Davis,NYJ,RB85,9,5 out of 5 stars,-,UNK
+284,12,Tre Tucker,LV,WR100,8,4 out of 5 stars,-,UNK
+285,12,Antonio Gibson,NE,RB86,14,4 out of 5 stars,+40,UNK
+286,12,Chicago Bears,CHI,DST18,5,2 out of 5 stars,+12,UNK
+287,13,Jalen Nailor,MIN,WR101,6,2 out of 5 stars,-,UNK
+288,13,Spencer Rattler,NO,QB33,11,5 out of 5 stars,-40,UNK
+289,13,Jaxson Dart,NYG,QB34,14,1 out of 5 stars,-79,UNK
+290,13,Tyler Loop,BAL,K16,7,2 out of 5 stars,-22,UNK
+291,13,Tyler Shough,NO,QB35,11,5 out of 5 stars,-17,UNK
+292,13,Daniel Carlson,LV,K17,8,3 out of 5 stars,-2,UNK
+293,13,Cleveland Browns,CLE,DST19,9,3 out of 5 stars,-,UNK
+294,13,Will Reichard,MIN,K18,6,0 out of 5 stars,+3,UNK
+295,13,Emanuel Wilson,GB,RB87,5,4 out of 5 stars,+15,UNK
+296,13,Tim Patrick,JAC,WR102,8,4 out of 5 stars,-,UNK
+297,13,Jordan James,SF,RB88,14,3 out of 5 stars,-38,UNK
+298,13,Terrance Ferguson,LAR,TE36,8,4 out of 5 stars,-44,UNK
+299,13,Christian Watson,GB,WR103,5,2 out of 5 stars,+14,UNK
+300,13,New England Patriots,NE,DST20,14,4 out of 5 stars,-24,UNK
+301,13,Taysom Hill,NO,TE37,11,3 out of 5 stars,+1,UNK
+302,13,Parker Washington,JAC,WR104,8,4 out of 5 stars,-,UNK
+303,13,Troy Franklin,DEN,WR105,12,3 out of 5 stars,-17,UNK
+304,13,Arizona Cardinals,ARI,DST21,8,4 out of 5 stars,-31,UNK
+305,13,Chris Brooks,GB,RB89,5,4 out of 5 stars,-,UNK
+306,13,Noah Fant,CIN,TE38,10,2 out of 5 stars,-3,UNK
+307,13,Luke McCaffrey,WAS,WR106,12,3 out of 5 stars,-,UNK
+308,13,Diontae Johnson,FA,WR107,-,-,-12,UNK
+309,13,Audric Estime,PHI,RB90,9,3 out of 5 stars,-10,UNK
+310,13,Xavier Restrepo,TEN,WR108,10,4 out of 5 stars,-17,UNK
+311,13,Ray-Ray McCloud III,ATL,WR109,5,3 out of 5 stars,-23,UNK
+312,13,Jermaine Burton,CIN,WR110,10,3 out of 5 stars,-,UNK
+313,13,Tyler Higbee,LAR,TE39,8,4 out of 5 stars,-24,UNK
+314,13,Tutu Atwell,LAR,WR111,8,3 out of 5 stars,0,UNK
+315,13,Oronde Gadsden II,LAC,TE40,12,3 out of 5 stars,-6,UNK
+316,13,Samaje Perine,CIN,RB91,10,4 out of 5 stars,-,UNK
+317,13,Khalil Herbert,FA,RB92,-,-,+4,UNK
+318,13,Kimani Vidal,LAC,RB93,12,2 out of 5 stars,-,UNK
+319,13,Ty Chandler,MIN,RB94,6,3 out of 5 stars,-,UNK
+320,13,Tez Johnson,TB,WR112,9,3 out of 5 stars,-,UNK
+321,13,Zamir White,LV,RB95,8,2 out of 5 stars,-,UNK
+322,13,Ben Sinnott,WAS,TE41,12,3 out of 5 stars,-11,UNK
+323,13,Phil Mafah,DAL,RB96,10,2 out of 5 stars,-,UNK
+324,13,Sincere McCormick,SF,RB97,14,3 out of 5 stars,-,UNK
+325,13,Shedeur Sanders,CLE,QB36,9,2 out of 5 stars,-93,UNK
+326,13,KaVontae Turpin,DAL,WR113,10,2 out of 5 stars,-,UNK
+327,13,Will Dissly,LAC,TE42,12,3 out of 5 stars,-,UNK
+328,13,Josh Reynolds,NYJ,WR114,9,4 out of 5 stars,-,UNK
+329,13,A.J. Dillon,PHI,RB98,9,3 out of 5 stars,-,UNK
+330,13,Jordan Whittington,LAR,WR115,8,3 out of 5 stars,-22,UNK
+331,13,Damien Martinez,SEA,RB99,8,3 out of 5 stars,-7,UNK
+332,13,Jason Myers,SEA,K19,8,5 out of 5 stars,-,UNK
+333,13,Cam Little,JAC,K20,8,5 out of 5 stars,-48,UNK
+334,13,Tyler Conklin,LAC,TE43,12,3 out of 5 stars,-63,UNK
+335,13,Raheim Sanders,CLE,RB100,9,4 out of 5 stars,-,UNK
+336,13,Noah Brown,WAS,WR116,12,3 out of 5 stars,-,UNK
+337,13,Brandon McManus,GB,K21,5,3 out of 5 stars,-62,UNK
+338,14,KeAndre Lambert-Smith,LAC,WR117,12,3 out of 5 stars,-20,UNK
+339,14,New York Giants,NYG,DST22,14,1 out of 5 stars,-103,UNK
+340,14,Demarcus Robinson,SF,WR118,14,4 out of 5 stars,-,UNK
+341,14,Miami Dolphins,MIA,DST23,12,2 out of 5 stars,-54,UNK
+342,14,Gabe Davis,FA,WR119,-,-,-,UNK
+343,14,AJ Barner,SEA,TE44,8,4 out of 5 stars,-,UNK
+344,14,Jalen Milroe,SEA,QB37,8,4 out of 5 stars,-50,UNK
+345,14,Michael Mayer,LV,TE45,8,2 out of 5 stars,-,UNK
+346,14,Dawson Knox,BUF,TE46,7,3 out of 5 stars,-,UNK
+347,14,Jaylin Lane,WAS,WR120,12,3 out of 5 stars,-,UNK
+348,14,Isaiah Bond,CLE,WR121,9,2 out of 5 stars,-28,UNK
+349,14,John Metchie III,PHI,WR122,9,3 out of 5 stars,-,UNK
+350,14,Zack Moss,FA,RB101,-,-,-49,UNK
+351,14,Kalel Mullings,TEN,RB102,10,2 out of 5 stars,-,UNK
+352,14,Olamide Zaccheaus,CHI,WR123,5,2 out of 5 stars,-,UNK
+353,14,Tai Felton,MIN,WR124,6,2 out of 5 stars,-,UNK
+354,14,Jake Moody,SF,K22,14,5 out of 5 stars,-50,UNK
+355,14,Kirk Cousins,ATL,QB38,5,4 out of 5 stars,-93,UNK
+356,14,Marquez Valdes-Scantling,SF,WR125,14,4 out of 5 stars,-33,UNK
+357,14,Luke Musgrave,GB,TE47,5,2 out of 5 stars,-,UNK
+358,14,LeQuint Allen Jr.,JAC,RB103,8,2 out of 5 stars,-,UNK
+359,14,Savion Williams,GB,WR126,5,2 out of 5 stars,-,UNK
+360,14,Chimere Dike,TEN,WR127,10,4 out of 5 stars,-,UNK
+361,14,Dillon Gabriel,CLE,QB39,9,2 out of 5 stars,-,UNK
+362,14,Gus Edwards,FA,RB104,-,-,-,UNK
+363,14,Allen Lazard,NYJ,WR128,9,4 out of 5 stars,-,UNK
+364,14,Justin Tucker,FA,K23,-,-,-,UNK
+365,14,Jimmy Garoppolo,LAR,QB40,8,3 out of 5 stars,-,UNK
+366,14,Curtis Samuel,BUF,WR129,7,3 out of 5 stars,-39,UNK
+367,14,Cam Akers,FA,RB105,-,-,-,UNK
+368,14,Jameis Winston,NYG,QB41,14,1 out of 5 stars,-,UNK
+369,14,Mack Hollins,NE,WR130,14,3 out of 5 stars,-,UNK
+370,14,Washington Commanders,WAS,DST24,12,4 out of 5 stars,-152,UNK
+371,14,Emari Demercado,ARI,RB106,8,3 out of 5 stars,-,UNK
+372,14,Austin Hooper,NE,TE48,14,3 out of 5 stars,-,UNK
+373,14,Gunnar Helm,TEN,TE49,10,3 out of 5 stars,-,UNK
+374,14,Van Jefferson,TEN,WR131,10,4 out of 5 stars,-,UNK
+375,14,Zay Jones,ARI,WR132,8,4 out of 5 stars,-,UNK
+376,14,Cairo Santos,CHI,K24,5,1 out of 5 stars,-,UNK
+377,14,Jahan Dotson,PHI,WR133,9,3 out of 5 stars,-,UNK
+378,14,Tank Dell,HOU,WR134,6,4 out of 5 stars,-,UNK
+379,14,Matt Prater,FA,K25,-,-,-,UNK
+380,14,Indianapolis Colts,IND,DST25,11,4 out of 5 stars,-65,UNK
+381,14,Donovan Edwards,WAS,RB107,12,2 out of 5 stars,-,UNK
+382,14,Trey Sermon,PIT,RB108,5,4 out of 5 stars,-,UNK
+383,14,Jamari Thrash,CLE,WR135,9,2 out of 5 stars,-,UNK
+384,14,Chad Ryland,ARI,K26,8,3 out of 5 stars,-,UNK
+385,14,Foster Moreau,NO,TE50,11,3 out of 5 stars,-,UNK
+386,14,Atlanta Falcons,ATL,DST26,5,3 out of 5 stars,-,UNK
+387,14,Cade Stover,HOU,TE51,6,3 out of 5 stars,-,UNK
+388,15,Tommy Tremble,CAR,TE52,14,4 out of 5 stars,-,UNK
+389,15,Eddy Pineiro,FA,K27,-,-,-,UNK
+390,15,Greg Dortch,ARI,WR136,8,4 out of 5 stars,-,UNK
+391,15,Kyle Juszczyk,SF,RB109,14,3 out of 5 stars,-,UNK
+392,15,Blake Grupe,NO,K28,11,5 out of 5 stars,-,UNK
+393,15,Kenny Pickett,LV,QB42,8,3 out of 5 stars,-,UNK
+394,15,Efton Chism III,NE,WR137,14,3 out of 5 stars,-,UNK
+395,15,Cincinnati Bengals,CIN,DST27,10,2 out of 5 stars,-89,UNK
+396,15,Jacob Cowing,SF,WR138,14,4 out of 5 stars,-,UNK
+397,15,Jonathon Brooks,CAR,RB110,14,3 out of 5 stars,-,UNK
+398,15,Antwane Wells Jr.,FA,WR139,-,-,-,UNK
+399,15,Craig Reynolds,DET,RB111,8,2 out of 5 stars,-,UNK
+400,15,Tyler Goodson,IND,RB112,11,2 out of 5 stars,-,UNK
+401,15,Jeremy McNichols,WAS,RB113,12,2 out of 5 stars,-,UNK
+402,15,Graham Gano,NYG,K29,14,0 out of 5 stars,-,UNK
+403,15,Luke Schoonmaker,DAL,TE53,10,2 out of 5 stars,-,UNK
+404,15,Theo Wease Jr.,MIA,WR140,12,3 out of 5 stars,-,UNK
+405,15,Josh Oliver,MIN,TE54,6,3 out of 5 stars,-,UNK
+406,15,Nick Folk,NYJ,K30,9,2 out of 5 stars,-,UNK
+407,15,Julius Chestnut,TEN,RB114,10,2 out of 5 stars,-,UNK
+408,15,JuJu Smith-Schuster,KC,WR141,10,3 out of 5 stars,-,UNK
+409,15,Tyrod Taylor,NYJ,QB43,9,5 out of 5 stars,-,UNK
+410,15,Clyde Edwards-Helaire,KC,RB115,10,2 out of 5 stars,-,UNK
+411,15,Joe Milton III,DAL,QB44,10,2 out of 5 stars,-,UNK
+412,15,George Holani,SEA,RB116,8,3 out of 5 stars,-,UNK
+413,15,Dare Ogunbowale,HOU,RB117,6,2 out of 5 stars,-,UNK
+414,15,New Orleans Saints,NO,DST28,11,4 out of 5 stars,-92,UNK
+415,15,Jalin Hyatt,NYG,WR142,14,2 out of 5 stars,-,UNK
+416,15,Ja'Quinden Jackson,JAC,RB118,8,2 out of 5 stars,-,UNK
+417,15,Mason Rudolph,PIT,QB45,5,4 out of 5 stars,-,UNK
+418,15,Tyquan Thornton,KC,WR143,10,3 out of 5 stars,-,UNK
+419,15,Hunter Renfrow,FA,WR144,-,-,-,UNK
+420,15,Jordan Watkins,SF,WR145,14,4 out of 5 stars,-,UNK
+421,15,Xavier Hutchinson,HOU,WR146,6,4 out of 5 stars,-,UNK
+422,15,Devontez Walker,BAL,WR147,7,3 out of 5 stars,-,UNK
+423,15,Arian Smith,NYJ,WR148,9,4 out of 5 stars,-,UNK
+424,15,Tyler Badie,DEN,RB119,12,2 out of 5 stars,-,UNK
+425,15,Hassan Haskins,LAC,RB120,12,2 out of 5 stars,-,UNK
+426,15,Robert Woods,PIT,WR149,5,4 out of 5 stars,-,UNK
+427,15,Skyy Moore,SF,WR150,14,4 out of 5 stars,-,UNK
+428,15,Grant Calcaterra,PHI,TE55,9,3 out of 5 stars,-,UNK
+429,15,Jimmy Horn Jr.,CAR,WR151,14,4 out of 5 stars,-,UNK
+430,15,Mitchell Evans,CAR,TE56,14,4 out of 5 stars,-,UNK
+431,15,Jeremy Ruckert,NYJ,TE57,9,3 out of 5 stars,-,UNK
+432,15,Elijah Higgins,ARI,TE58,8,5 out of 5 stars,-,UNK
+433,15,D'Ernest Johnson,FA,RB121,-,-,-,UNK
+434,15,Alec Ingold,MIA,RB122,12,4 out of 5 stars,-,UNK
+435,15,Kalif Raymond,DET,WR152,8,3 out of 5 stars,-,UNK
+436,15,Darnell Washington,PIT,TE59,5,3 out of 5 stars,-,UNK
+437,15,Las Vegas Raiders,LV,DST29,8,4 out of 5 stars,-121,UNK
+438,15,Stone Smartt,NYJ,TE60,9,3 out of 5 stars,-,UNK
+439,15,Malik Willis,GB,QB46,5,2 out of 5 stars,-,UNK
+440,15,Jacksonville Jaguars,JAC,DST30,8,4 out of 5 stars,-121,UNK
+441,15,Aidan O'Connell,LV,QB47,8,3 out of 5 stars,-,UNK
+442,15,Spencer Shrader,IND,K31,11,5 out of 5 stars,-,UNK
+443,15,Malachi Corley,CLE,WR153,9,2 out of 5 stars,-,UNK
+444,15,Jonathan Mingo,DAL,WR154,10,2 out of 5 stars,-,UNK
+445,15,Casey Washington,ATL,WR155,5,3 out of 5 stars,-,UNK
+446,15,Jeff Wilson Jr.,MIA,RB123,12,4 out of 5 stars,-,UNK
+447,15,Greg Dulcich,MIA,TE61,12,3 out of 5 stars,-,UNK
+448,15,Mitchell Tinsley,CIN,WR156,10,3 out of 5 stars,-,UNK
+449,15,Javon Baker,PHI,WR157,9,3 out of 5 stars,-,UNK
+450,15,Jake Bobo,SEA,WR158,8,3 out of 5 stars,-,UNK
+451,15,Marcus Mariota,WAS,QB48,12,2 out of 5 stars,-,UNK
+452,15,Deshaun Watson,CLE,QB49,9,2 out of 5 stars,-,UNK
+453,15,Sione Vaki,DET,RB124,8,2 out of 5 stars,-,UNK
+454,15,Dylan Laube,LV,RB125,8,2 out of 5 stars,-,UNK
+455,15,Carson Steele,KC,RB126,10,2 out of 5 stars,-,UNK
+456,15,Rasheen Ali,BAL,RB127,7,4 out of 5 stars,-,UNK
+457,15,John Bates,WAS,TE62,12,3 out of 5 stars,-,UNK
+458,15,Chris Tyree,NO,RB128,11,4 out of 5 stars,-,UNK
+459,15,Julian Hill,MIA,TE63,12,3 out of 5 stars,-,UNK
+460,15,KhaDarel Hodge,ATL,WR159,5,3 out of 5 stars,-,UNK
+461,15,Hunter Luepke,DAL,RB129,10,2 out of 5 stars,-,UNK
+462,15,Pierre Strong Jr.,FA,RB130,-,-,-,UNK
+463,16,Cordarrelle Patterson,FA,RB131,-,-,-,UNK
+464,16,Sterling Shepard,TB,WR160,9,3 out of 5 stars,-,UNK
+465,16,Kendrick Bourne,FA,WR161,-,-,-,UNK
+466,16,Jacoby Brissett,ARI,QB50,8,4 out of 5 stars,-,UNK
+467,16,Tyler Johnson,NYJ,WR162,9,4 out of 5 stars,-,UNK
+468,16,Daniel Bellinger,NYG,TE64,14,2 out of 5 stars,-,UNK
+469,16,Michael Carter,ARI,RB132,8,3 out of 5 stars,-,UNK
+470,16,Will Howard,PIT,QB51,5,4 out of 5 stars,-,UNK
+471,16,Mac Jones,SF,QB52,14,4 out of 5 stars,-,UNK
+472,16,Zavier Scott,MIN,WR163,6,2 out of 5 stars,-,UNK
+473,16,Eric Gray,NYG,RB133,14,3 out of 5 stars,-,UNK
+474,16,Zach Wilson,MIA,QB53,12,5 out of 5 stars,-,UNK
+475,16,Gardner Minshew II,KC,QB54,10,3 out of 5 stars,-,UNK
+476,16,Trayveon Williams,CLE,RB134,9,4 out of 5 stars,-,UNK
+477,16,Jake Browning,CIN,QB55,10,2 out of 5 stars,-,UNK
+478,16,Josh Williams,TB,RB135,9,3 out of 5 stars,-,UNK
+479,16,Marcus Yarns,FA,RB136,-,-,-,UNK
+480,16,Sam Howell,PHI,QB56,9,3 out of 5 stars,-,UNK
+481,16,Colby Parkinson,LAR,TE65,8,4 out of 5 stars,-,UNK
+482,16,Ricky White III,SEA,WR164,8,3 out of 5 stars,-,UNK
+483,16,Jelani Woods,NYJ,TE66,9,3 out of 5 stars,-,UNK
+484,16,Adam Trautman,DEN,TE67,12,3 out of 5 stars,-,UNK
+485,16,Hunter Long,JAC,TE68,8,3 out of 5 stars,-,UNK
+486,16,Cooper Rush,BAL,QB57,7,3 out of 5 stars,-,UNK
+487,16,DeeJay Dallas,CAR,RB137,14,3 out of 5 stars,-,UNK
+488,16,Brock Wright,DET,TE69,8,3 out of 5 stars,-,UNK
+489,16,Luke Lachey,FA,TE70,-,-,-,UNK
+490,16,Jared Wiley,KC,TE71,10,3 out of 5 stars,-,UNK
+491,16,Thomas Fidone II,NYG,TE72,14,2 out of 5 stars,-,UNK
+492,16,Drew Lock,SEA,QB58,8,4 out of 5 stars,-,UNK
+493,16,Kene Nwangwu,NYJ,RB138,9,5 out of 5 stars,-,UNK
+494,16,Harrison Bryant,HOU,TE73,6,3 out of 5 stars,-,UNK
+495,16,Josh Whyle,GB,TE74,5,2 out of 5 stars,-,UNK
+496,16,C.J. Ham,MIN,RB139,6,3 out of 5 stars,-,UNK
+497,16,Luke Farrell,SF,TE75,14,3 out of 5 stars,-,UNK
+498,16,Patrick Ricard,BAL,RB140,7,4 out of 5 stars,-,UNK
+499,16,Derius Davis,LAC,WR165,12,3 out of 5 stars,-,UNK
+500,16,Ronnie Rivers,LAR,RB141,8,3 out of 5 stars,-,UNK
+501,16,Charlie Woerner,ATL,TE76,5,3 out of 5 stars,-,UNK
+502,16,David Moore,CAR,WR166,14,4 out of 5 stars,-,UNK
+503,16,Charlie Kolar,BAL,TE77,7,3 out of 5 stars,-,UNK

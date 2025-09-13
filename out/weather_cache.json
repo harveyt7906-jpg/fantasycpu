@@ -1,0 +1,335 @@
+{
+  "generated_at": "2025-08-22T06:59:40Z",
+  "sources": {
+    "openweather": false,
+    "noaa_nws": false,
+    "metar": false,
+    "stormglass": false,
+    "swpc": false
+  },
+  "space_weather": {
+    "kp_index": null
+  },
+  "team_weather": {
+    "ARI": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "ATL": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "BAL": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "BUF": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "CAR": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "CHI": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "CIN": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "CLE": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "DAL": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "DEN": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "DET": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "GB": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "HOU": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "IND": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "JAX": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "KC": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "LAC": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "LAR": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "LV": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "MIA": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "MIN": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "NE": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "NO": {
+      "dome": true,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.1,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "NYG": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "NYJ": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "PHI": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "PIT": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "SEA": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "SF": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "TB": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "TEN": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    },
+    "WAS": {
+      "dome": false,
+      "wind_mph": 0.0,
+      "pop": 0.0,
+      "precip_mm": null,
+      "penalty": 0.0,
+      "bonus": 0.0,
+      "draft_nudge_pct": null,
+      "sources": []
+    }
+  }
+}

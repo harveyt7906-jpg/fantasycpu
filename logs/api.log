@@ -1,0 +1,119 @@
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [31/Aug/2025 19:53:57] "GET /health HTTP/1.1" 200 -
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [31/Aug/2025 20:42:49] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2025 20:42:49] "GET /draft/analysis HTTP/1.1" 200 -
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+Traceback (most recent call last):
+  File "/Users/thomasharvey/fantasycpu/watson_aristotle_api.py", line 212, in <module>
+    @app.get("/league/summary")
+     ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/thomasharvey/fantasycpu/venv/lib/python3.13/site-packages/flask/sansio/scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thomasharvey/fantasycpu/venv/lib/python3.13/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/Users/thomasharvey/fantasycpu/venv/lib/python3.13/site-packages/flask/sansio/app.py", line 657, in add_url_rule
+    raise AssertionError(
+    ...<2 lines>...
+    )
+AssertionError: View function mapping is overwriting an existing endpoint function: league_summary
+Traceback (most recent call last):
+  File "/Users/thomasharvey/fantasycpu/watson_aristotle_api.py", line 212, in <module>
+    @app.get("/league/summary")
+     ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/thomasharvey/fantasycpu/venv/lib/python3.13/site-packages/flask/sansio/scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thomasharvey/fantasycpu/venv/lib/python3.13/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/Users/thomasharvey/fantasycpu/venv/lib/python3.13/site-packages/flask/sansio/app.py", line 657, in add_url_rule
+    raise AssertionError(
+    ...<2 lines>...
+    )
+AssertionError: View function mapping is overwriting an existing endpoint function: league_summary
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [01/Sep/2025 09:50:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 09:50:21] "GET /league/files HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 09:50:21] "GET /league/summary HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 09:50:21] "GET /league/team/Rush%20Mode HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 09:51:24] "GET /league/summary HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 09:51:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [01/Sep/2025 10:21:43] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 10:21:43] "GET /league/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 10:21:43] "GET /league/matchup/1 HTTP/1.1" 200 -
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [01/Sep/2025 10:37:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 10:37:47] "GET /league/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 10:37:47] "GET /league/matchup/1 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 10:43:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 10:43:25] "GET /league/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [01/Sep/2025 10:43:25] "GET /league/matchup/1 HTTP/1.1" 200 -
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [01/Sep/2025 13:09:46] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:09:57] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:19:27] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:20:29] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:27:33] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:27:33] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:33:27] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:33:27] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:33:27] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:34:46] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:34:46] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:34:46] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:58:07] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:58:07] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 13:58:07] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:00:17] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:00:17] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:00:17] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:01:28] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:01:38] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:01:45] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:01:51] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:10:17] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:10:17] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:10:17] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:10:46] "[33mGET /hello HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:10:55] "[33mGET /routes HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Sep/2025 14:11:03] "[33mPOST /analyze HTTP/1.1[0m" 404 -

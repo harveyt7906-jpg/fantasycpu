@@ -1,0 +1,8 @@
+{
+  "games": [
+    {"home": "KC", "away": "BUF", "total": 51.5, "spread_home": -3.0},
+    {"home": "SF", "away": "SEA", "total": 45.0, "spread_home": -6.5}
+  ],
+  "asof": "2025-08-21T10:00:00Z"
+}
+

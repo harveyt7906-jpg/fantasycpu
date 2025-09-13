@@ -1,0 +1,15 @@
+ECR/ADP quick summary generated from out/draft_results_clean.csv
+Rows: 503
+Top-12 names:
+   1. Ja'Marr Chase (CIN WR)  ECR-ADP 0.0
+   2. Bijan Robinson (ATL RB)  ECR-ADP 0.0
+   3. Saquon Barkley (PHI RB)  ECR-ADP 0.0
+   4. Justin Jefferson (MIN WR)  ECR-ADP 1.0
+   5. CeeDee Lamb (DAL WR)  ECR-ADP 1.0
+   6. Jahmyr Gibbs (DET RB)  ECR-ADP -2.0
+   7. Derrick Henry (BAL RB)  ECR-ADP 4.0
+   8. Nico Collins (HOU WR)  ECR-ADP 4.0
+   9. Malik Nabers (NYG WR)  ECR-ADP -1.0
+  10. Brian Thomas Jr. (JAC WR)  ECR-ADP 4.0
+  11. Puka Nacua (LAR WR)  ECR-ADP 2.0
+  12. Ashton Jeanty (LV RB)  ECR-ADP -3.0

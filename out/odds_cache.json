@@ -1,0 +1,3185 @@
+{
+  "generated_at": "2025-08-22T06:59:13Z",
+  "source_summary": {
+    "manual_games": 2,
+    "api_games": 272,
+    "merged_games": 271,
+    "from_cache": false
+  },
+  "games": [
+    {
+      "home": "KC",
+      "away": "BUF",
+      "total": 51.5,
+      "spread_home": -3.0,
+      "composite_source": "manual+api",
+      "sources": {
+        "total": "manual",
+        "spread_home": "manual"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "SEA",
+      "total": 45.0,
+      "spread_home": -6.5,
+      "composite_source": "manual+api",
+      "sources": {
+        "total": "manual",
+        "spread_home": "manual"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "DAL",
+      "total": 46.22222222222222,
+      "spread_home": -6.666666666666667,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "KC",
+      "total": 45.0,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "TB",
+      "total": 47.833333333333336,
+      "spread_home": 1.3333333333333333,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "CAR",
+      "total": 46.166666666666664,
+      "spread_home": -2.888888888888889,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "NYG",
+      "total": 45.666666666666664,
+      "spread_home": -6.111111111111111,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "ARI",
+      "total": 42.333333333333336,
+      "spread_home": 5.888888888888889,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "CIN",
+      "total": 46.388888888888886,
+      "spread_home": 5.611111111111111,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "MIA",
+      "total": 46.72222222222222,
+      "spread_home": -1.5555555555555556,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "LV",
+      "total": 42.388888888888886,
+      "spread_home": -2.9444444444444446,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "PIT",
+      "total": 38.388888888888886,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "TEN",
+      "total": 41.55555555555556,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "DET",
+      "total": 49.44444444444444,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "HOU",
+      "total": 44.111111111111114,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "BAL",
+      "total": 51.833333333333336,
+      "spread_home": -1.1666666666666667,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "MIN",
+      "total": 43.27777777777778,
+      "spread_home": 1.7222222222222223,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "WAS",
+      "total": 48.5,
+      "spread_home": -2.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "CLE",
+      "total": 44.5,
+      "spread_home": -12.666666666666666,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "BUF",
+      "total": 44.5,
+      "spread_home": 8.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "CHI",
+      "total": 48.5,
+      "spread_home": -5.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "JAX",
+      "total": 49.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "NYG",
+      "total": 44.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "LAR",
+      "total": 45.5,
+      "spread_home": 5.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "NE",
+      "total": 45.5,
+      "spread_home": -2.6666666666666665,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "SF",
+      "total": 44.5,
+      "spread_home": 7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "SEA",
+      "total": 42.5,
+      "spread_home": -1.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "CAR",
+      "total": 46.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "DEN",
+      "total": 44.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "PHI",
+      "total": 46.3,
+      "spread_home": -1.3333333333333333,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "ATL",
+      "total": 45.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "TB",
+      "total": 46.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "LAC",
+      "total": 44.5,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "MIA",
+      "total": 48.5,
+      "spread_home": -8.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "ATL",
+      "total": 46.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "CIN",
+      "total": 47.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "GB",
+      "total": 43.5,
+      "spread_home": 5.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "HOU",
+      "total": 46.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "IND",
+      "total": 45.5,
+      "spread_home": -1.3333333333333333,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "LV",
+      "total": 47.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "LAR",
+      "total": 46.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "PIT",
+      "total": 43.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "NYJ",
+      "total": 45.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "DEN",
+      "total": 44.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "NO",
+      "total": 43.5,
+      "spread_home": -6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "ARI",
+      "total": 47.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "DAL",
+      "total": 47.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "KC",
+      "total": 43.5,
+      "spread_home": 6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "DET",
+      "total": 49.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "SEA",
+      "total": 46.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "MIN",
+      "total": 42.5,
+      "spread_home": 1.6,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "WAS",
+      "total": 48.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "NO",
+      "total": 46.5,
+      "spread_home": -12.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "CAR",
+      "total": 45.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "CLE",
+      "total": 45.5,
+      "spread_home": -10.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "TEN",
+      "total": 44.5,
+      "spread_home": -6.166666666666667,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "LAC",
+      "total": 43.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "PHI",
+      "total": 48.5,
+      "spread_home": 2.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "IND",
+      "total": 46.5,
+      "spread_home": -6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "JAX",
+      "total": 48.5,
+      "spread_home": -5.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "BAL",
+      "total": 48.5,
+      "spread_home": -1.3333333333333333,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "CHI",
+      "total": 45.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "GB",
+      "total": 47.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "NYJ",
+      "total": 44.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "CIN",
+      "total": 47.5,
+      "spread_home": -2.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "SF",
+      "total": 47.5,
+      "spread_home": -1.3333333333333333,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "MIN",
+      "total": 41.25,
+      "spread_home": 6.9,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "HOU",
+      "total": 47.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "MIA",
+      "total": 46.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "DAL",
+      "total": 44.5,
+      "spread_home": 2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "DEN",
+      "total": 45.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "LV",
+      "total": 44.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "NYG",
+      "total": 42.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "TEN",
+      "total": 46.5,
+      "spread_home": -5.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "TB",
+      "total": 47.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "DET",
+      "total": 50.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "WAS",
+      "total": 47.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "NE",
+      "total": 46.5,
+      "spread_home": -8.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "KC",
+      "total": 47.5,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "PHI",
+      "total": 43.5,
+      "spread_home": 6.833333333333333,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "DEN",
+      "total": 42.25,
+      "spread_home": 6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "ARI",
+      "total": 47.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "LAR",
+      "total": 48.5,
+      "spread_home": -5.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "DAL",
+      "total": 46.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "CLE",
+      "total": 42.0,
+      "spread_home": -6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "SEA",
+      "total": 46.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "LAC",
+      "total": 45.5,
+      "spread_home": 2.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "SF",
+      "total": 48.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "TEN",
+      "total": 44.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "CIN",
+      "total": 48.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "NE",
+      "total": 43.5,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "DET",
+      "total": 48.5,
+      "spread_home": -2.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "BUF",
+      "total": 48.5,
+      "spread_home": 5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "CHI",
+      "total": 48.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "PIT",
+      "total": 46.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "LAR",
+      "total": 47.5,
+      "spread_home": 3.6666666666666665,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "CAR",
+      "total": 43.5,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "NO",
+      "total": 44.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "MIA",
+      "total": 43.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "LV",
+      "total": 45.5,
+      "spread_home": -9.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "PHI",
+      "total": 44.5,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "NE",
+      "total": 44.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "NYG",
+      "total": 42.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "IND",
+      "total": 45.5,
+      "spread_home": -6.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "GB",
+      "total": 47.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "WAS",
+      "total": 48.5,
+      "spread_home": 2.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "ATL",
+      "total": 47.5,
+      "spread_home": -6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "TB",
+      "total": 49.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "HOU",
+      "total": 44.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "MIN",
+      "total": 44.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "MIA",
+      "total": 46.5,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "CHI",
+      "total": 48.5,
+      "spread_home": -7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "BUF",
+      "total": 47.5,
+      "spread_home": 7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "NYJ",
+      "total": 45.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "CLE",
+      "total": 42.5,
+      "spread_home": -5.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "SF",
+      "total": 45.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "NYG",
+      "total": 43.5,
+      "spread_home": -10.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "TB",
+      "total": 45.5,
+      "spread_home": 5.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "DAL",
+      "total": 45.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "TEN",
+      "total": 44.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "GB",
+      "total": 44.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "WAS",
+      "total": 48.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "BAL",
+      "total": 47.5,
+      "spread_home": 5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "ATL",
+      "total": 44.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "CAR",
+      "total": 45.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "CHI",
+      "total": 48.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "DEN",
+      "total": 45.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "MIN",
+      "total": 47.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "IND",
+      "total": 44.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "LAC",
+      "total": 44.5,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "SF",
+      "total": 44.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "JAX",
+      "total": 45.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "NO",
+      "total": 44.5,
+      "spread_home": -9.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "SEA",
+      "total": 47.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "ARI",
+      "total": 47.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "LV",
+      "total": 43.5,
+      "spread_home": -6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "ATL",
+      "total": 45.0,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "BAL",
+      "total": 46.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "BUF",
+      "total": 48.5,
+      "spread_home": 5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "NO",
+      "total": 43.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "NYG",
+      "total": 43.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "CLE",
+      "total": 40.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "JAX",
+      "total": 45.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "NE",
+      "total": 46.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "ARI",
+      "total": 45.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "DET",
+      "total": 49.5,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "LAR",
+      "total": 46.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "PIT",
+      "total": 43.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "PHI",
+      "total": 45.5,
+      "spread_home": 1.375,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "NYJ",
+      "total": 42.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "WAS",
+      "total": 48.833333333333336,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "CAR",
+      "total": 45.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "TB",
+      "total": 49.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "CHI",
+      "total": 45.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "CIN",
+      "total": 46.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "GB",
+      "total": 43.5,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "HOU",
+      "total": 43.5,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "LAC",
+      "total": 46.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "SF",
+      "total": 47.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "SEA",
+      "total": 45.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "BAL",
+      "total": 44.5,
+      "spread_home": 8.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "KC",
+      "total": 45.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "DET",
+      "total": 47.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "DAL",
+      "total": 45.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "BUF",
+      "total": 46.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "NYJ",
+      "total": 44.5,
+      "spread_home": -11.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "PIT",
+      "total": 44.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "NE",
+      "total": 47.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "NYG",
+      "total": 45.5,
+      "spread_home": -8.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "MIN",
+      "total": 45.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "IND",
+      "total": 45.5,
+      "spread_home": -9.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "SEA",
+      "total": 44.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "JAX",
+      "total": 47.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "CLE",
+      "total": 41.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "ATL",
+      "total": 43.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "PHI",
+      "total": 46.5,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "TB",
+      "total": 47.5,
+      "spread_home": -2.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "CAR",
+      "total": 46.5,
+      "spread_home": -7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "GB",
+      "total": 48.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "KC",
+      "total": 47.5,
+      "spread_home": 5.666666666666667,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "CIN",
+      "total": 49.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "CHI",
+      "total": 46.166666666666664,
+      "spread_home": -7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "ARI",
+      "total": 48.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "ATL",
+      "total": 43.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "LAR",
+      "total": 45.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "SF",
+      "total": 42.5,
+      "spread_home": 6.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "HOU",
+      "total": 44.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "JAX",
+      "total": 45.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "NO",
+      "total": 44.5,
+      "spread_home": -6.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "MIN",
+      "total": 43.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "BUF",
+      "total": 46.5,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "LV",
+      "total": 44.5,
+      "spread_home": -6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "DEN",
+      "total": 46.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "NYG",
+      "total": 42.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "DAL",
+      "total": 48.5,
+      "spread_home": -6.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "SEA",
+      "total": 45.5,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "PIT",
+      "total": 46.5,
+      "spread_home": -8.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "CHI",
+      "total": 46.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "TEN",
+      "total": 41.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "IND",
+      "total": 46.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "MIA",
+      "total": 43.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "WAS",
+      "total": 47.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "NO",
+      "total": 45.5,
+      "spread_home": -9.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "DEN",
+      "total": 43.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "LAR",
+      "total": 47.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "CIN",
+      "total": 49.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "HOU",
+      "total": 45.5,
+      "spread_home": -6.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "PHI",
+      "total": 45.5,
+      "spread_home": 2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "ATL",
+      "total": 47.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "ARI",
+      "total": 45.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "BAL",
+      "total": 49.5,
+      "spread_home": 2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "BUF",
+      "total": 46.5,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "CLE",
+      "total": 42.5,
+      "spread_home": -7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "NYJ",
+      "total": 43.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "LAC",
+      "total": 45.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "LV",
+      "total": 44.5,
+      "spread_home": -10.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "WAS",
+      "total": 45.5,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "CAR",
+      "total": 43.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "GB",
+      "total": 44.5,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "DET",
+      "total": 48.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "IND",
+      "total": 44.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "TEN",
+      "total": 45.5,
+      "spread_home": -7.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "MIN",
+      "total": 45.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "MIA",
+      "total": 44.5,
+      "spread_home": -3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "LAR",
+      "total": 44.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "GB",
+      "total": 45.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "PHI",
+      "total": 47.833333333333336,
+      "spread_home": 1.375,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BAL",
+      "away": "NE",
+      "total": 46.5,
+      "spread_home": -8.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "BUF",
+      "total": 43.5,
+      "spread_home": 8.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "TB",
+      "total": 47.5,
+      "spread_home": 3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "LAC",
+      "total": 46.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "KC",
+      "total": 44.5,
+      "spread_home": 7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "MIN",
+      "total": 42.5,
+      "spread_home": 2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NO",
+      "away": "NYJ",
+      "total": 41.5,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ARI",
+      "away": "ATL",
+      "total": 46.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "JAX",
+      "total": 45.5,
+      "spread_home": -5.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DET",
+      "away": "PIT",
+      "total": 45.5,
+      "spread_home": -6.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "LV",
+      "total": 43.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "CIN",
+      "total": 48.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "SF",
+      "total": 46.5,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "DAL",
+      "total": 49.166666666666664,
+      "spread_home": -4.833333333333333,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "DET",
+      "total": 47.166666666666664,
+      "spread_home": 2.1666666666666665,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "KC",
+      "away": "DEN",
+      "total": 44.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "ARI",
+      "total": 47.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "GB",
+      "away": "BAL",
+      "total": 46.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CAR",
+      "away": "SEA",
+      "total": 43.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CLE",
+      "away": "PIT",
+      "total": 40.5,
+      "spread_home": 2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAC",
+      "away": "HOU",
+      "total": 43.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "IND",
+      "away": "JAX",
+      "total": 45.5,
+      "spread_home": -1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "TB",
+      "total": 47.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "NE",
+      "total": 41.5,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TEN",
+      "away": "NO",
+      "total": 42.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "PHI",
+      "total": 46.5,
+      "spread_home": -1.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "NYG",
+      "total": 42.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "SF",
+      "away": "CHI",
+      "total": 46.5,
+      "spread_home": -3.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "LAR",
+      "total": 46.5,
+      "spread_home": 3.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LAR",
+      "away": "ARI",
+      "total": 45.5,
+      "spread_home": -4.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "ATL",
+      "away": "NO",
+      "total": null,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "BAL",
+      "total": null,
+      "spread_home": 4.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "NYJ",
+      "total": null,
+      "spread_home": -9.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "TB",
+      "away": "CAR",
+      "total": 46.5,
+      "spread_home": -7.0,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CHI",
+      "away": "DET",
+      "total": null,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "CLE",
+      "total": 43.5,
+      "spread_home": -8.75,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NYG",
+      "away": "DAL",
+      "total": null,
+      "spread_home": 1.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "MIN",
+      "away": "GB",
+      "total": 44.5,
+      "spread_home": 1.25,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "HOU",
+      "away": "IND",
+      "total": null,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "TEN",
+      "total": 43.5,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "LV",
+      "away": "KC",
+      "total": null,
+      "spread_home": 6.0,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "NE",
+      "away": "MIA",
+      "total": null,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "PHI",
+      "away": "WAS",
+      "total": null,
+      "spread_home": -4.5,
+      "composite_source": "api",
+      "sources": {
+        "spread_home": "api"
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "LAC",
+      "total": 42.5,
+      "spread_home": -2.5,
+      "composite_source": "api",
+      "sources": {
+        "total": "api",
+        "spread_home": "api"
+      }
+    }
+  ],
+  "team_implied": {
+    "KC": 27.5,
+    "BUF": 29.5,
+    "SF": 27.12,
+    "SEA": 25.0,
+    "PHI": 27.5,
+    "DAL": 24.5,
+    "LAC": 25.75,
+    "ATL": 24.25,
+    "TB": 27.5,
+    "JAX": 24.75,
+    "CAR": 24.0,
+    "WAS": 27.5,
+    "NYG": 21.88,
+    "NO": 21.5,
+    "ARI": 26.12,
+    "CLE": 21.38,
+    "CIN": 27.5,
+    "IND": 24.14,
+    "MIA": 25.25,
+    "NE": 24.5,
+    "LV": 23.75,
+    "NYJ": 22.5,
+    "PIT": 24.25,
+    "DEN": 25.5,
+    "TEN": 23.42,
+    "GB": 26.5,
+    "DET": 28.0,
+    "LAR": 27.0,
+    "HOU": 25.33,
+    "BAL": 28.58,
+    "CHI": 26.0,
+    "MIN": 25.0
+  },
+  "mean_implied": 25.41,
+  "split_implied": {
+    "mean": 25.41,
+    "above": [
+      {
+        "team": "BUF",
+        "name": "Buffalo Bills",
+        "pts": 29.5
+      },
+      {
+        "team": "BAL",
+        "name": "Baltimore Ravens",
+        "pts": 28.58
+      },
+      {
+        "team": "DET",
+        "name": "Detroit Lions",
+        "pts": 28.0
+      },
+      {
+        "team": "KC",
+        "name": "Kansas City Chiefs",
+        "pts": 27.5
+      },
+      {
+        "team": "PHI",
+        "name": "Philadelphia Eagles",
+        "pts": 27.5
+      },
+      {
+        "team": "TB",
+        "name": "Tampa Bay Buccaneers",
+        "pts": 27.5
+      },
+      {
+        "team": "WAS",
+        "name": "Washington Commanders",
+        "pts": 27.5
+      },
+      {
+        "team": "CIN",
+        "name": "Cincinnati Bengals",
+        "pts": 27.5
+      },
+      {
+        "team": "SF",
+        "name": "San Francisco 49ers",
+        "pts": 27.12
+      },
+      {
+        "team": "LAR",
+        "name": "Los Angeles Rams",
+        "pts": 27.0
+      },
+      {
+        "team": "GB",
+        "name": "Green Bay Packers",
+        "pts": 26.5
+      },
+      {
+        "team": "ARI",
+        "name": "Arizona Cardinals",
+        "pts": 26.12
+      },
+      {
+        "team": "CHI",
+        "name": "Chicago Bears",
+        "pts": 26.0
+      },
+      {
+        "team": "LAC",
+        "name": "Los Angeles Chargers",
+        "pts": 25.75
+      },
+      {
+        "team": "DEN",
+        "name": "Denver Broncos",
+        "pts": 25.5
+      }
+    ],
+    "below": [
+      {
+        "team": "HOU",
+        "name": "Houston Texans",
+        "pts": 25.33
+      },
+      {
+        "team": "MIA",
+        "name": "Miami Dolphins",
+        "pts": 25.25
+      },
+      {
+        "team": "SEA",
+        "name": "Seattle Seahawks",
+        "pts": 25.0
+      },
+      {
+        "team": "MIN",
+        "name": "Minnesota Vikings",
+        "pts": 25.0
+      },
+      {
+        "team": "JAX",
+        "name": "Jacksonville Jaguars",
+        "pts": 24.75
+      },
+      {
+        "team": "DAL",
+        "name": "Dallas Cowboys",
+        "pts": 24.5
+      },
+      {
+        "team": "NE",
+        "name": "New England Patriots",
+        "pts": 24.5
+      },
+      {
+        "team": "ATL",
+        "name": "Atlanta Falcons",
+        "pts": 24.25
+      },
+      {
+        "team": "PIT",
+        "name": "Pittsburgh Steelers",
+        "pts": 24.25
+      },
+      {
+        "team": "IND",
+        "name": "Indianapolis Colts",
+        "pts": 24.14
+      },
+      {
+        "team": "CAR",
+        "name": "Carolina Panthers",
+        "pts": 24.0
+      },
+      {
+        "team": "LV",
+        "name": "Las Vegas Raiders",
+        "pts": 23.75
+      },
+      {
+        "team": "TEN",
+        "name": "Tennessee Titans",
+        "pts": 23.42
+      },
+      {
+        "team": "NYJ",
+        "name": "New York Jets",
+        "pts": 22.5
+      },
+      {
+        "team": "NYG",
+        "name": "New York Giants",
+        "pts": 21.88
+      },
+      {
+        "team": "NO",
+        "name": "New Orleans Saints",
+        "pts": 21.5
+      },
+      {
+        "team": "CLE",
+        "name": "Cleveland Browns",
+        "pts": 21.38
+      }
+    ]
+  }
+}

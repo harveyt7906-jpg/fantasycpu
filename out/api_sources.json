@@ -1,0 +1,3152 @@
+{
+  "updated_at": "2025-08-20T07:02:54Z",
+  "items": [
+    {
+      "name": "NFL v3 Scores",
+      "url": "https://sportsdata.io:nfl-v3-scores",
+      "description": "NFL schedules, scores, odds, weather, and news API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "news",
+        "nfl",
+        "odds",
+        "schedule",
+        "scores",
+        "sports",
+        "weather"
+      ],
+      "score": 25.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "CFB v3 Scores",
+      "url": "https://sportsdata.io:cfb-v3-scores",
+      "description": "CFB schedules, scores, team stats, odds, weather, and news API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/cfb-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "news",
+        "odds",
+        "schedule",
+        "scores",
+        "sports",
+        "stats",
+        "weather"
+      ],
+      "score": 22.5,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "team_generic",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "soccerapi",
+      "url": "https://github.com/S1M0N38/soccerapi",
+      "description": "soccerapi, an unambitious soccer odds scraper \u26bd\ufe0f",
+      "documentation": "https://github.com/S1M0N38/soccerapi",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "bookmaker",
+        "football",
+        "odds",
+        "scraper"
+      ],
+      "github_stars": 167,
+      "pushed_at": "2022-12-08T08:48:45Z",
+      "updated_at": "2025-06-20T20:07:55Z",
+      "score": 21.3,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "fantasy-football-metrics-weekly-report",
+      "url": "https://github.com/uberfastman/fantasy-football-metrics-weekly-report",
+      "description": "Command line application to create weekly reports (containing stats, metrics, and rankings) for Fantasy Football leagues on the following platforms: Yahoo, ESPN, CBS, Sleeper, Fleaflicker",
+      "documentation": "https://github.com/uberfastman/fantasy-football-metrics-weekly-report",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "fantasy",
+        "fantasy football",
+        "football",
+        "stats"
+      ],
+      "github_stars": 213,
+      "pushed_at": "2025-01-07T02:04:27Z",
+      "updated_at": "2025-08-15T15:33:27Z",
+      "score": 21.1,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "sportsbook-odds-comparer",
+      "url": "https://sportsbook-odds-comparer.vercel.app/",
+      "description": "This project allows you to compare betting odds from different sportsbooks for various sports. It utilizes the-odds-api.com to fetch the latest odds data and helps you identify the best odds available.",
+      "documentation": "https://github.com/avalos010/sportsbook-odds-comparer",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "odds",
+        "player",
+        "sports"
+      ],
+      "github_stars": 32,
+      "pushed_at": "2025-08-20T03:49:58Z",
+      "updated_at": "2025-08-20T03:50:01Z",
+      "score": 20.1,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "espn-api",
+      "url": "https://github.com/cwendt94/espn-api",
+      "description": "ESPN Fantasy API! (Football, Basketball)",
+      "documentation": "https://github.com/cwendt94/espn-api",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "fantasy",
+        "fantasy football",
+        "football"
+      ],
+      "github_stars": 762,
+      "pushed_at": "2025-06-23T15:56:58Z",
+      "updated_at": "2025-08-19T20:58:10Z",
+      "score": 19.2,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "fantasy-football-scoreboard",
+      "url": "https://github.com/mikemountain/fantasy-football-scoreboard",
+      "description": "Display the score of your fantasy football team on a Raspberry Pi driven RGB LED matrix for maximum ease of disappointment",
+      "documentation": "https://github.com/mikemountain/fantasy-football-scoreboard",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "fantasy",
+        "fantasy football",
+        "football"
+      ],
+      "github_stars": 61,
+      "pushed_at": "2024-09-04T21:20:17Z",
+      "updated_at": "2025-08-18T19:59:00Z",
+      "score": 19.17,
+      "id_scheme": "team_generic",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "fantasy_football_chat_bot",
+      "url": "https://github.com/dtcarls/fantasy_football_chat_bot",
+      "description": "GroupMe Discord and Slack Chatbot for ESPN Fantasy Football ",
+      "documentation": "https://github.com/dtcarls/fantasy_football_chat_bot",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "fantasy",
+        "fantasy football",
+        "football"
+      ],
+      "github_stars": 299,
+      "pushed_at": "2025-08-15T20:36:36Z",
+      "updated_at": "2025-08-17T17:11:48Z",
+      "score": 19.15,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "fantasy_football_chat_bot",
+      "url": "https://www.gamedaybot.com/",
+      "description": "GroupMe Discord and Slack Chatbot for ESPN Fantasy Football ",
+      "documentation": "https://github.com/dtcarls/fantasy_football_chat_bot",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "fantasy",
+        "football"
+      ],
+      "github_stars": 299,
+      "pushed_at": "2025-08-15T20:36:36Z",
+      "updated_at": "2025-08-20T16:50:30Z",
+      "score": 18.99,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Predicting-Fantasy-Football-Points-Using-Machine-Learning",
+      "url": "https://github.com/zzhangusf/Predicting-Fantasy-Football-Points-Using-Machine-Learning",
+      "description": "",
+      "documentation": "https://github.com/zzhangusf/Predicting-Fantasy-Football-Points-Using-Machine-Learning",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "fantasy",
+        "football"
+      ],
+      "github_stars": 127,
+      "pushed_at": "2020-11-05T12:23:27Z",
+      "updated_at": "2025-08-10T07:52:12Z",
+      "score": 18.97,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "sportsipy",
+      "url": "https://github.com/roclark/sportsipy",
+      "description": "A free sports API written for python",
+      "documentation": "https://github.com/roclark/sportsipy",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "nfl",
+        "sports",
+        "stats",
+        "teams"
+      ],
+      "github_stars": 525,
+      "pushed_at": "2025-01-31T17:20:05Z",
+      "updated_at": "2025-08-17T06:05:50Z",
+      "score": 18.92,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Recommended-Bets-By-Email-MLB",
+      "url": "https://github.com/callmevojtko/Recommended-Bets-By-Email-MLB",
+      "description": "An advanced machine learning model utilizes a Random Forest Regressor to generate betting recommendations for Major League Baseball (MLB) games.",
+      "documentation": "https://github.com/callmevojtko/Recommended-Bets-By-Email-MLB",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "odds",
+        "sports"
+      ],
+      "github_stars": 28,
+      "pushed_at": "2023-08-10T18:22:41Z",
+      "updated_at": "2025-06-30T17:34:29Z",
+      "score": 18.91,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NFL v3 Stats",
+      "url": "https://sportsdata.io:nfl-v3-stats",
+      "description": "NFL rosters, player stats, team stats, and fantasy stats API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "fantasy",
+        "nfl",
+        "player",
+        "sports",
+        "stats"
+      ],
+      "score": 18.8,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "player_name",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "ProphitBet-Soccer-Bets-Predictor",
+      "url": "https://github.com/kochlisGit/ProphitBet-Soccer-Bets-Predictor",
+      "description": "ProphitBet is a Machine Learning Soccer Bet prediction application. It analyzes the form of teams, computes match statistics and predicts the outcomes of a match using Advanced Machine Learning (ML) methods. The supported algorithms in this application are Neural Networks, Random Forests & Ensembl Models.",
+      "documentation": "https://github.com/kochlisGit/ProphitBet-Soccer-Bets-Predictor",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "football",
+        "teams"
+      ],
+      "github_stars": 422,
+      "pushed_at": "2025-02-01T12:14:48Z",
+      "updated_at": "2025-08-16T19:07:05Z",
+      "score": 18.72,
+      "id_scheme": "team_generic",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "go-uof-sdk",
+      "url": "https://github.com/minus5/go-uof-sdk",
+      "description": "Betradar Unified Odds Feed SDK for the Go programming language. ",
+      "documentation": "https://github.com/minus5/go-uof-sdk",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "odds",
+        "sports"
+      ],
+      "github_stars": 21,
+      "pushed_at": "2023-11-30T23:47:30Z",
+      "updated_at": "2025-07-03T07:01:42Z",
+      "score": 18.56,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NBA_AI",
+      "url": "https://github.com/NBA-Betting/NBA_AI",
+      "description": "Using AI to predict the outcomes of NBA games.",
+      "documentation": "https://github.com/NBA-Betting/NBA_AI",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "sports",
+        "stats"
+      ],
+      "github_stars": 63,
+      "pushed_at": "2025-01-11T11:47:26Z",
+      "updated_at": "2025-08-10T03:52:38Z",
+      "score": 18.05,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Betting-Arbitrage",
+      "url": "https://github.com/zhouyan8603/Betting-Arbitrage",
+      "description": "Arbitrage Alert scanner. Scans odds across Betfair, Pinnacle, William Hill, bet365, Bookmaker, BetOnline, The Greek Sportsbook, JustBet, SportsInteraction, WagerWeb, 5Dimes",
+      "documentation": "https://github.com/zhouyan8603/Betting-Arbitrage",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "bookmaker",
+        "odds",
+        "sports"
+      ],
+      "github_stars": 24,
+      "pushed_at": "2017-01-11T18:14:28Z",
+      "updated_at": "2025-06-04T15:39:39Z",
+      "score": 18.04,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "shin",
+      "url": "https://github.com/mberk/shin",
+      "description": "Python implementation of Shin's method for calculating implied probabilities from bookmaker odds",
+      "documentation": "https://github.com/mberk/shin",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "bookmaker",
+        "odds"
+      ],
+      "github_stars": 87,
+      "pushed_at": "2025-04-02T13:22:12Z",
+      "updated_at": "2025-07-18T10:08:47Z",
+      "score": 18.0,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "google-sheets-nfl-odds",
+      "url": "https://github.com/bigmike0009/google-sheets-nfl-odds",
+      "description": "GCP Cloud Data Solution: leveraging live vegas odds and Microsoft graph AI to automate spreadsheet creation",
+      "documentation": "https://github.com/bigmike0009/google-sheets-nfl-odds",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "nfl",
+        "odds",
+        "spreads",
+        "vegas"
+      ],
+      "github_stars": 0,
+      "pushed_at": "2024-09-09T17:43:21Z",
+      "updated_at": "2024-09-09T17:43:25Z",
+      "score": 17.5,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NaijaBet_Api",
+      "url": "https://github.com/jayteealao/NaijaBet_Api",
+      "description": "A python library that provides access to the odds data of Nigeria's major betting sites",
+      "documentation": "https://github.com/jayteealao/NaijaBet_Api",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "odds"
+      ],
+      "github_stars": 24,
+      "pushed_at": "2023-11-20T09:47:49Z",
+      "updated_at": "2025-07-08T12:11:18Z",
+      "score": 17.39,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "stake.com-Scraper-and-Autobetting-tool",
+      "url": "https://github.com/ljk1072911239/stake.com-Scraper-and-Autobetting-tool",
+      "description": "Reverse engineered 'stake.com' API in order to do odds scraping and automatic betting, with captcha bypass!",
+      "documentation": "https://github.com/ljk1072911239/stake.com-Scraper-and-Autobetting-tool",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "odds",
+        "scraper"
+      ],
+      "github_stars": 36,
+      "pushed_at": "2022-02-21T14:56:35Z",
+      "updated_at": "2025-06-23T00:19:12Z",
+      "score": 17.35,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "SurvivorPool",
+      "url": "https://docs.google.com/spreadsheets/d/1noKcC-nOzwkqcna2r-92b_69RDw4Un1WYsm6WuM3kQE/edit?usp=sharing",
+      "description": "An NFL rankings and Vegas odds scraper used to determine picks for the NFL Survivor Pool I am in",
+      "documentation": "https://github.com/jonross10/SurvivorPool",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "nfl",
+        "odds",
+        "scraper",
+        "spreads",
+        "vegas"
+      ],
+      "github_stars": 0,
+      "pushed_at": "2021-11-23T19:52:18Z",
+      "updated_at": "2021-11-23T19:52:21Z",
+      "score": 17.3,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "EPlusTV",
+      "url": "https://github.com/m0ngr31/EPlusTV",
+      "description": "Virtual linear channels for ESPN, ESPN+, Gotham Sports, NFL+, B1G+, NESN, WNBA League Pass, Outside TV, Mountain West, FloSports, Victory+, NSIC, PWHL, LOVB Live, NHL.tv, Paramount+, CBS Sports, MLB.tv, and FOX Sports",
+      "documentation": "https://github.com/m0ngr31/EPlusTV",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "nfl",
+        "sports"
+      ],
+      "github_stars": 214,
+      "pushed_at": "2025-05-08T04:31:55Z",
+      "updated_at": "2025-08-18T15:43:08Z",
+      "score": 16.99,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "football-app-telegram",
+      "url": "https://github.com/anyharris/football-app-telegram",
+      "description": "a Telegram bot that sends betting line info as push notifications, and can send player, league, and game schedule information on request.",
+      "documentation": "https://github.com/anyharris/football-app-telegram",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "football",
+        "player",
+        "schedule",
+        "sports"
+      ],
+      "github_stars": 3,
+      "pushed_at": "2022-12-08T10:48:40Z",
+      "updated_at": "2024-04-21T14:34:51Z",
+      "score": 16.9,
+      "id_scheme": "player_name",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "SportsArbFinder",
+      "url": "https://github.com/carterlasalle/SportsArbFinder",
+      "description": "Sports Betting Arbitrage Finder: Python tool for identifying profitable arbitrage opportunities across bookmakers. Features multi-region support, customizable profit margins, interactive calculator, and web interface. Uses real-time odds data from The Odds API. Ideal for betting enthusiasts, analysts, and educational purposes.",
+      "documentation": "https://github.com/carterlasalle/SportsArbFinder",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "bookmaker",
+        "odds",
+        "sports"
+      ],
+      "github_stars": 5,
+      "pushed_at": "2024-10-29T21:14:41Z",
+      "updated_at": "2025-07-08T06:06:17Z",
+      "score": 16.81,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "ps3838api",
+      "url": "https://pypi.org/project/PS3838api/",
+      "description": "A lightweight Python library to interact with the PS3838 (Pinnacle) API and place bets.",
+      "documentation": "https://github.com/iliyasone/ps3838api",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "odds",
+        "sports"
+      ],
+      "github_stars": 2,
+      "pushed_at": "2025-05-13T15:38:00Z",
+      "updated_at": "2025-08-09T16:32:39Z",
+      "score": 16.43,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "sports_betting_analytics_engine",
+      "url": "https://github.com/sanchitvj/sports_betting_analytics_engine",
+      "description": "A data and analytics engineering platform designed for real-time sports betting analytics.",
+      "documentation": "https://github.com/sanchitvj/sports_betting_analytics_engine",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "sports"
+      ],
+      "github_stars": 35,
+      "pushed_at": "2025-03-21T22:53:54Z",
+      "updated_at": "2025-08-18T16:48:37Z",
+      "score": 16.3,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "arbitrage-finder",
+      "url": "https://github.com/robbiehaynes/arbitrage-finder",
+      "description": "This repo features a betting arbitrage finder that uses The Odds API to fetch current betting odds. It enables users to identify profitable arbitrage opportunities by comparing odds from different bookmakers and exchanges. It is for entertainment and educational purposes only",
+      "documentation": "https://github.com/robbiehaynes/arbitrage-finder",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "bookmaker",
+        "exchange",
+        "odds"
+      ],
+      "github_stars": 24,
+      "pushed_at": "2024-05-12T14:11:45Z",
+      "updated_at": "2025-05-25T19:55:06Z",
+      "score": 16.29,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "sports-betting",
+      "url": "https://georgedouzas.github.io/sports-betting",
+      "description": "Collection of sports betting AI tools.",
+      "documentation": "https://github.com/georgedouzas/sports-betting",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "sports"
+      ],
+      "github_stars": 575,
+      "pushed_at": "2025-08-20T01:23:59Z",
+      "updated_at": "2025-08-18T15:27:47Z",
+      "score": 16.27,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Tisane API Documentation",
+      "url": "https://tisane.ai",
+      "description": "Tisane is a natural language processing library, providing:\n\n*   standard NLP functionality\n*   special functions for detection of problematic or abusive content\n*   low-level NLP like morphological analysis and tokenization of no-space languages (Chinese, Japanese, Thai)\n    \n\nTisane has monolithic architecture. All the functions are exposed using the same language models and the same analysis process invoked using the [POST /parse](#561264c5-6dbe-4bde-aba3-7defe837989f) method. Other methods in the API are either wrappers based on the process, helper methods, or allow inspection of the langu",
+      "documentation": "https://api.apis.guru/v2/specs/tisane.ai/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl",
+        "player",
+        "stats",
+        "vegas",
+        "wind"
+      ],
+      "score": 16.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "team_abbr",
+      "compatibility": "good"
+    },
+    {
+      "name": "ArbitrageFinder",
+      "url": "https://github.com/daankoning/ArbitrageFinder",
+      "description": "A simple tool to find sports betting arbitrage opportunities.",
+      "documentation": "https://github.com/daankoning/ArbitrageFinder",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "sports"
+      ],
+      "github_stars": 83,
+      "pushed_at": "2024-10-18T14:14:18Z",
+      "updated_at": "2025-08-09T22:53:43Z",
+      "score": 16.05,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "go-nflog",
+      "url": "https://github.com/florianl/go-nflog",
+      "description": "c-binding free API for golang to communicate with the log subsystem of netfilter",
+      "documentation": "https://github.com/florianl/go-nflog",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "nfl"
+      ],
+      "github_stars": 65,
+      "pushed_at": "2025-04-03T07:39:47Z",
+      "updated_at": "2025-08-17T05:46:58Z",
+      "score": 15.43,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "election",
+      "url": "https://github.com/Metaculus/election",
+      "description": "Single-page site for tracking election forecasts, betting odds, polls, and news in real time",
+      "documentation": "https://github.com/Metaculus/election",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "forecast",
+        "news",
+        "odds"
+      ],
+      "github_stars": 5,
+      "pushed_at": "2025-01-04T06:07:33Z",
+      "updated_at": "2025-02-01T10:59:44Z",
+      "score": 14.98,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Sports-betting-odds",
+      "url": "https://github.com/calvinwang9/Sports-betting-odds",
+      "description": "Program to optimise an arbitrage risk free profit in sports betting based on matched betting",
+      "documentation": "https://github.com/calvinwang9/Sports-betting-odds",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "odds",
+        "sports"
+      ],
+      "github_stars": 5,
+      "pushed_at": "2020-03-24T01:14:27Z",
+      "updated_at": "2024-11-30T20:14:09Z",
+      "score": 14.88,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "samples-python",
+      "url": "https://the-odds-api.com/",
+      "description": "Python code samples for The Odds API",
+      "documentation": "https://github.com/the-odds-api/samples-python",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "odds"
+      ],
+      "github_stars": 88,
+      "pushed_at": "2025-06-16T13:26:31Z",
+      "updated_at": "2025-07-22T02:06:49Z",
+      "score": 14.8,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NFL v3 Projections",
+      "url": "https://sportsdata.io:nfl-v3-projections",
+      "description": "NFL projected stats API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-projections/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "sports",
+        "stats"
+      ],
+      "score": 14.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Viator API Documentation &amp; Specification \u2013 Merchant Partners",
+      "url": "https://viator.com",
+      "description": "&lt;style type='text/css'&gt;\ncode { white-space: nowrap; }\na { font-weight: bold; }\n\nfigure {\n  width: 100%;\n  text-align: center;\n  font-style: italic;\n  font-size: smaller;\n  text-indent: 0;\n  border: thin silver solid;\n  margin: 0.5em;\n  padding: 0.5em;\n}\n\n&lt;/style&gt;\n\n## Updates\n\n### Latest update: \n\n| Date | Description |\n|------|-------------|\n| 3 Feb 2021 | Added [Special offers and on-sale pricing](#section/Key-concepts/Special-offers-and-on-sale-pricing) section |\n| 28 Oct 2020 | Updated FAQ section re booking questions, traveler names, and pricing |\n| 16 Sep 2020 | Modified FAQ s",
+      "documentation": "https://api.apis.guru/v2/specs/viator.com/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "schedule",
+        "vegas",
+        "weather",
+        "wind"
+      ],
+      "score": 14.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Bets API",
+      "url": "https://whapi.com:bets",
+      "description": "The Bets API methods are used to place single, multiple and complex bets and to retrieve a customer\u2019s bet history. When retrieving a customer\u2019s bet history you can organize the bets from the betting history in terms of date, bet type and whether the bet is settled or not. You can also specify what fields to be included/excluded or return a list of all default fields the method returns. <br /><br /> The Bets API will also generate a bet delay if you\u2019re placing a single/multiple bet in-Play by creating a time margin to negate the effects of major changes to the market (for example, goals during ",
+      "documentation": "https://api.apis.guru/v2/specs/whapi.com/bets/2.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "betting",
+        "football"
+      ],
+      "score": 14.4,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NFL v3 RotoBaller Premium News",
+      "url": "https://sportsdata.io:nfl-v3-rotoballer-premium-news",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-rotoballer-premium-news/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "news",
+        "nfl",
+        "sports"
+      ],
+      "score": 14.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "SportPredict_Aibetix",
+      "url": "https://github.com/VegaisMVP/SportPredict_Aibetix",
+      "description": "Vegas Sports Prediction Demo",
+      "documentation": "https://github.com/VegaisMVP/SportPredict_Aibetix",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "sports",
+        "vegas"
+      ],
+      "github_stars": 41,
+      "pushed_at": "2025-06-19T13:21:19Z",
+      "updated_at": "2025-06-26T08:34:42Z",
+      "score": 14.15,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Loket.nl API",
+      "url": "https://loket.nl",
+      "description": "<span style=\"color:green\">**Is this your first time here? Please check out our [introduction to Loket (API)](./Introduction)**</span>\n\n**The initial loading time of this developer portal may be very long due to the large number of endpoints designs being rendered when loading the page.\nWe are looking into an alternative solution but for now please bear in mind.**\n\n\n# General\nThe Loket.nl API is a RESTful API that exposes the data and features of the Loket.nl platform.\nThe API accepts and returns JSON and can only be accessed by registered users.\nThis documentation describes version 2 of the AP",
+      "documentation": "https://api.apis.guru/v2/specs/loket.nl/V2/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "lines",
+        "nfl",
+        "spreads",
+        "wind"
+      ],
+      "score": 14.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Fulfillment.com APIv2",
+      "url": "https://fulfillment.com",
+      "description": "Welcome to our current iteration of our REST API. While we encourage you to upgrade to v2.0 we will continue support for our [SOAP API](https://github.com/fulfillment/soap-integration).\n\n# Versioning\n\nThe Fulfillment.com (FDC) REST API is version controlled and backwards compatible. We have many future APIs scheduled for publication within our v2.0 spec so please be prepared for us to add data nodes in our responses, however, we will not remove knowledge from previously published APIs.\n\n#### A Current Response\n\n```javascript\n{\n  id: 123\n}\n```\n\n#### A Potential Future Response\n\n```javascript\n{\n",
+      "documentation": "https://api.apis.guru/v2/specs/fulfillment.com/2.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "schedule"
+      ],
+      "score": 13.7,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "bettingAI",
+      "url": "https://github.com/erikbohne/bettingAI",
+      "description": "Betting AI project that includes gathering and processing data, training and tuning a model and predicting outcomes.",
+      "documentation": "https://github.com/erikbohne/bettingAI",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting"
+      ],
+      "github_stars": 47,
+      "pushed_at": "2023-06-01T18:55:14Z",
+      "updated_at": "2025-07-02T11:00:24Z",
+      "score": 13.6,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "MLB v3 Stats",
+      "url": "https://sportsdata.io:mlb-v3-stats",
+      "description": "MLB scores, stats, and news API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "news",
+        "scores",
+        "sports",
+        "stats"
+      ],
+      "score": 13.5,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "wego",
+      "url": "https://github.com/schachmat/wego",
+      "description": "weather app for the terminal",
+      "documentation": "https://github.com/schachmat/wego",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "forecast",
+        "weather"
+      ],
+      "github_stars": 8257,
+      "pushed_at": "2025-06-01T14:12:56Z",
+      "updated_at": "2025-08-20T02:52:53Z",
+      "score": 13.39,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "betting-analyze-engine",
+      "url": "https://github.com/IBQ-SUP/betting-analyze-engine",
+      "description": "A data and analytics engineering platform designed for real-time sports betting analytics.",
+      "documentation": "https://github.com/IBQ-SUP/betting-analyze-engine",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "sports"
+      ],
+      "github_stars": 2,
+      "pushed_at": "2025-08-04T05:03:29Z",
+      "updated_at": "2025-08-04T05:03:28Z",
+      "score": 13.3,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "wttr.in",
+      "url": "https://wttr.in",
+      "description": ":partly_sunny: The right way to check the weather",
+      "documentation": "https://github.com/chubin/wttr.in",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "weather"
+      ],
+      "github_stars": 27357,
+      "pushed_at": "2025-08-19T12:42:52Z",
+      "updated_at": "2025-08-20T03:36:42Z",
+      "score": 13.2,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Bet-bot",
+      "url": "https://github.com/env0id/Bet-bot",
+      "description": "Telegram bot designed for sports betting ",
+      "documentation": "https://github.com/env0id/Bet-bot",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "sports"
+      ],
+      "github_stars": 3,
+      "pushed_at": "2024-06-22T18:21:59Z",
+      "updated_at": "2025-08-12T21:54:01Z",
+      "score": 13.12,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "PrizePicks-Prop-Finder",
+      "url": "https://github.com/auroradan/PrizePicks-Prop-Finder",
+      "description": "Uses Selenium to obtain player projection lines from the PrizePicks API and then utilizes The Odds API to access 20 different sportsbooks to retrieve player props with the highest odds on PrizePicks. The player prop with the highest probability of occurring can be chosen by averaging the highest odds across all sportsbooks.",
+      "documentation": "https://github.com/auroradan/PrizePicks-Prop-Finder",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "lines",
+        "odds",
+        "player",
+        "sports"
+      ],
+      "github_stars": 17,
+      "pushed_at": "2024-09-06T16:36:38Z",
+      "updated_at": "2025-05-10T01:35:56Z",
+      "score": 13.12,
+      "id_scheme": "player_name",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "D&D 5e API",
+      "url": "https://dnd5eapi.co",
+      "description": "# Introduction\n\nWelcome to the dnd5eapi, the Dungeons & Dragons 5th Edition API!\nThis documentation should help you familiarize yourself with the resources\navailable and how to consume them with HTTP requests. Read through the getting\nstarted section before you dive in. Most of your problems should be solved\njust by reading through it.\n\n## Getting Started\n\nLet's make our first API request to the D&D 5th Edition API!\n\nOpen up a terminal and use [curl](http://curl.haxx.se/) or [httpie](http://httpie.org/)\nto make an API request for a resource. You can also scroll through the\ndefinitions below an",
+      "documentation": "https://api.apis.guru/v2/specs/dnd5eapi.co/0.1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "lines",
+        "nfl",
+        "player",
+        "scores"
+      ],
+      "score": 12.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Hetzner Cloud API",
+      "url": "https://hetzner.cloud",
+      "description": "This is the official API documentation for the Public Hetzner Cloud.\n\n## Introduction\n\nThe Hetzner Cloud API operates over HTTPS and uses JSON as its data format. The API is a RESTful API and utilizes HTTP methods and HTTP status codes to specify requests and responses.\n\nAs an alternative to working directly with our API you may also consider to use:\n* Our CLI program [hcloud](https://github.com/hetznercloud/cli)\n* Our [library for Go](https://github.com/hetznercloud/hcloud-go)\n* Our [library for Python](https://github.com/hetznercloud/hcloud-python)\n\nAlso you can find a [list of libraries, to",
+      "documentation": "https://api.apis.guru/v2/specs/hetzner.cloud/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "scores"
+      ],
+      "score": 12.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Trakt API",
+      "url": "https://trakt.tv",
+      "description": "At Trakt, we collect lots of interesting information about what tv shows and movies everyone is watching. Part of the fun with such data is making it available for anyone to mash up and use on their own site or app. The Trakt API was made just for this purpose. It is very easy to use, you basically call a URL and get some JSON back.\n\nMore complex API calls (such as adding a movie or show to your collection) involve sending us data. These are still easy to use, you simply POST some JSON data to a specific URL.\n\nMake sure to check out the [**Required Headers**](#introduction/required-headers) an",
+      "documentation": "https://api.apis.guru/v2/specs/trakt.tv/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "scores"
+      ],
+      "score": 12.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "team_abbr",
+      "compatibility": "good"
+    },
+    {
+      "name": "Sports-Betting-Book-Open",
+      "url": "https://github.com/NyleD/Sports-Betting-Book-Open",
+      "description": "Selected prototyped parts of the Sports Betting Book platform are open sourced ",
+      "documentation": "https://github.com/NyleD/Sports-Betting-Book-Open",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "sports"
+      ],
+      "github_stars": 3,
+      "pushed_at": "2020-04-10T09:11:07Z",
+      "updated_at": "2025-08-03T08:54:17Z",
+      "score": 12.9,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "GraphHopper Directions API",
+      "url": "https://graphhopper.com",
+      "description": "\nWith the [GraphHopper Directions API](https://www.graphhopper.com/products/) you can integrate A-to-B route planning, turn-by-turn navigation,\nroute optimization, isochrone calculations and other tools in your application.\n\nThe GraphHopper Directions API consists of the following RESTful web services:\n\n * [Routing API](#tag/Routing-API),\n * [Route Optimization API](#tag/Route-Optimization-API),\n * [Isochrone API](#tag/Isochrone-API),\n * [Map Matching API](#tag/Map-Matching-API),\n * [Matrix API](#tag/Matrix-API),\n * [Geocoding API](#tag/Geocoding-API) and\n * [Cluster API](#tag/Cluster-API).\n\n#",
+      "documentation": "https://api.apis.guru/v2/specs/graphhopper.com/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "news",
+        "nfl"
+      ],
+      "score": 12.7,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NFL v3 Play-by-Play",
+      "url": "https://sportsdata.io:nfl-v3-play-by-play",
+      "description": "NFL play-by-play API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-play-by-play/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "sports"
+      ],
+      "score": 12.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NFL v3 RotoBaller Articles",
+      "url": "https://sportsdata.io:nfl-v3-rotoballer-articles",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-rotoballer-articles/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "sports"
+      ],
+      "score": 12.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "mlb-led-scoreboard",
+      "url": "https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard",
+      "description": "An LED scoreboard for Major League Baseball :baseball:",
+      "documentation": "https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "sports"
+      ],
+      "github_stars": 636,
+      "pushed_at": "2025-08-07T04:39:09Z",
+      "updated_at": "2025-08-16T08:21:31Z",
+      "score": 12.43,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "sports",
+      "url": "https://github.com/robbydyer/sports",
+      "description": "Raspberry Pi RGB Matrix controller for Sports Scoreboards (and others), written in Go",
+      "documentation": "https://github.com/robbydyer/sports",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "sports"
+      ],
+      "github_stars": 87,
+      "pushed_at": "2025-05-29T10:27:37Z",
+      "updated_at": "2025-08-16T05:01:04Z",
+      "score": 12.4,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "sportstensor",
+      "url": "https://github.com/sportstensor/sportstensor",
+      "description": "",
+      "documentation": "https://github.com/sportstensor/sportstensor",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "sports"
+      ],
+      "github_stars": 26,
+      "pushed_at": "2025-08-15T19:41:32Z",
+      "updated_at": "2025-08-15T19:41:32Z",
+      "score": 12.15,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Sessions API",
+      "url": "https://whapi.com:sessions",
+      "description": "The William Hill Sessions API uses a central authentication service (CAS*) on all resources that require access to a customer\u2019s account or betting functionality. To authenticate, you\u2019ll need to supply a sportsbook username and password, in return you will be given an authentication ticket, which you can use on the majority of requests found within our services. <br /><br /><br /> The Sessions API should be used whenever you want to login a customer and:<br /><br /> <ul> <li>continue to use the William Hill API for that customer\u2019s transactions</li> <li>use other CAS-enabled William Hill service",
+      "documentation": "https://api.apis.guru/v2/specs/whapi.com/sessions/2.0.0/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "betting",
+        "sports"
+      ],
+      "score": 11.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "mlb-positive-ev",
+      "url": "https://github.com/jrey999/mlb-positive-ev",
+      "description": "find positive EV bets using the odds API",
+      "documentation": "https://github.com/jrey999/mlb-positive-ev",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "odds"
+      ],
+      "github_stars": 13,
+      "pushed_at": "2023-10-11T16:11:52Z",
+      "updated_at": "2025-05-13T05:05:20Z",
+      "score": 11.33,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "AWS CodeCommit",
+      "url": "https://amazonaws.com:codecommit",
+      "description": "<fullname>AWS CodeCommit</fullname> <p>This is the <i>AWS CodeCommit API Reference</i>. This reference provides descriptions of the operations and data types for AWS CodeCommit API along with usage examples.</p> <p>You can use the AWS CodeCommit API to work with the following objects:</p> <p>Repositories, by calling the following:</p> <ul> <li> <p> <a>BatchGetRepositories</a>, which returns information about one or more repositories associated with your AWS account.</p> </li> <li> <p> <a>CreateRepository</a>, which creates an AWS CodeCommit repository.</p> </li> <li> <p> <a>DeleteRepository</a",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/codecommit/2015-04-13/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Amazon Interactive Video Service",
+      "url": "https://amazonaws.com:ivs",
+      "description": "<p> <b>Introduction</b> </p> <p>The Amazon Interactive Video Service (IVS) API is REST compatible, using a standard HTTP API and an Amazon Web Services EventBridge event stream for responses. JSON is used for both requests and responses, including errors.</p> <p>The API is an Amazon Web Services regional service. For a list of supported regions and Amazon IVS HTTPS service endpoints, see the <a href=\"https://docs.aws.amazon.com/general/latest/gr/ivs.html\">Amazon IVS page</a> in the <i>Amazon Web Services General Reference</i>.</p> <p> <i> <b>All API request parameters and URLs are case sensiti",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/ivs/2020-07-14/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "player"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "AWS Proton",
+      "url": "https://amazonaws.com:proton",
+      "description": "<p>This is the Proton Service API Reference. It provides descriptions, syntax and usage examples for each of the <a href=\"https://docs.aws.amazon.com/proton/latest/APIReference/API_Operations.html\">actions</a> and <a href=\"https://docs.aws.amazon.com/proton/latest/APIReference/API_Types.html\">data types</a> for the Proton service.</p> <p>The documentation for each action shows the Query API request parameters and the XML response.</p> <p>Alternatively, you can use the Amazon Web Services CLI to access an API. For more information, see the <a href=\"https://docs.aws.amazon.com/cli/latest/usergui",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/proton/2020-07-20/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Airflow API (Stable)",
+      "url": "https://apache.org",
+      "description": "# Overview\n\nTo facilitate management, Apache Airflow supports a range of REST API endpoints across its\nobjects.\nThis section provides an overview of the API design, methods, and supported use cases.\n\nMost of the endpoints accept `JSON` as input and return `JSON` responses.\nThis means that you must usually add the following headers to your request:\n```\nContent-type: application/json\nAccept: application/json\n```\n\n## Resources\n\nThe term `resource` refers to a single type of object in the Airflow metadata. An API is broken up by its\nendpoint's corresponding resource.\nThe name of a resource is typi",
+      "documentation": "https://api.apis.guru/v2/specs/apache.org/2.5.1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Airflow API (Stable)",
+      "url": "https://apache.org:airflow",
+      "description": "# Overview\n\nTo facilitate management, Apache Airflow supports a range of REST API endpoints across its\nobjects.\nThis section provides an overview of the API design, methods, and supported use cases.\n\nMost of the endpoints accept `JSON` as input and return `JSON` responses.\nThis means that you must usually add the following headers to your request:\n```\nContent-type: application/json\nAccept: application/json\n```\n\n## Resources\n\nThe term `resource` refers to a single type of object in the Airflow metadata. An API is broken up by its\nendpoint's corresponding resource.\nThe name of a resource is typi",
+      "documentation": "https://api.apis.guru/v2/specs/apache.org/airflow/2.5.1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Accounting API",
+      "url": "https://apideck.com:accounting",
+      "description": "Welcome to the Accounting API.\n\nYou can use this API to access all Accounting API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                           ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/accounting/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "ATS API",
+      "url": "https://apideck.com:ats",
+      "description": "Welcome to the ATS API.\n\nYou can use this API to access all ATS API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                                         ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/ats/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Connector API",
+      "url": "https://apideck.com:connector",
+      "description": "Welcome to the Connector API.\n\nYou can use this API to access all Connector API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                             ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/connector/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "CRM API",
+      "url": "https://apideck.com:crm",
+      "description": "Welcome to the CRM API.\n\nYou can use this API to access all CRM API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                                         ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/crm/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Customer Support",
+      "url": "https://apideck.com:customer-support",
+      "description": "Welcome to the Customer Support API.\n\nYou can use this API to access all Customer Support API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                               ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/customer-support/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Ecommerce API",
+      "url": "https://apideck.com:ecommerce",
+      "description": "Welcome to the Ecommerce API.\n\nYou can use this API to access all Ecommerce API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                             ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/ecommerce/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "File storage API",
+      "url": "https://apideck.com:file-storage",
+      "description": "Welcome to the File Storage API.\n\nYou can use this API to access all File Storage API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                       ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/file-storage/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "HRIS API",
+      "url": "https://apideck.com:hris",
+      "description": "Welcome to the HRIS API.\n\nYou can use this API to access all HRIS API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                                       ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/hris/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Issue Tracking API",
+      "url": "https://apideck.com:issue-tracking",
+      "description": "Welcome to the Issue Tracking API.\n\nYou can use this API to access all Issue Tracking API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                   ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/issue-tracking/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Lead API",
+      "url": "https://apideck.com:lead",
+      "description": "Welcome to the Lead API.\n\nYou can use this API to access all Lead API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                                       ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/lead/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "POS API",
+      "url": "https://apideck.com:pos",
+      "description": "Welcome to the POS API.\n\nYou can use this API to access all POS API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                                         ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/pos/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Proxy API",
+      "url": "https://apideck.com:proxy",
+      "description": "Welcome to the Proxy API.\n\nYou can use this API to access all Proxy API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                               | Type   | Required | Description |\n| ---------------------------------- | ------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/proxy/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "SMS API",
+      "url": "https://apideck.com:sms",
+      "description": "Welcome to the SMS API.\n\nYou can use this API to access all SMS API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                                         ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/sms/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Webhook API",
+      "url": "https://apideck.com:webhook",
+      "description": "Welcome to the Webhook API.\n\nYou can use this API to access all Webhook API endpoints.\n\n## Base URL\n\nThe base URL for all API requests is `https://unify.apideck.com`\n\nWe also provide a [Mock API](https://developers.apideck.com/mock-api) that can be used for testing purposes: `https://mock-api.apideck.com`\n\n## Headers\n\nCustom headers that are expected as part of the request. Note that [RFC7230](https://tools.ietf.org/html/rfc7230) states header names are case insensitive.\n\n| Name                  | Type    | Required | Description                                                                 ",
+      "documentation": "https://api.apis.guru/v2/specs/apideck.com/webhook/9.3.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Influx OSS API Service",
+      "url": "https://influxdata.com",
+      "description": "# Authentication\n\n&lt;!-- ReDoc-Inject: &lt;security-definitions&gt; --&gt;",
+      "documentation": "https://api.apis.guru/v2/specs/influxdata.com/2.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Lumminary API",
+      "url": "https://lumminary.com",
+      "description": "# Introduction\nThe Lumminary API was built to allow third parties to interact with Lumminary customers and gain access to their genetic data. The Lumminary API is fast, scalable and highly secure. All requests to the Lumminary API take place over SSL, which means all communication of Customer data is encrypted.\n\nBefore we dive in, some definitions. This is what we mean by:\n\n|Term|Definition|\n|-----------|-----------|\n|**Third party**|A third party (also referred to as \"partner\" or as \"you\") is a company which offers services and products using genetic data.|\n|**Lumminary clients**|The Lumminar",
+      "documentation": "https://api.apis.guru/v2/specs/lumminary.com/1.0/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl",
+        "wind"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "team_abbr",
+      "compatibility": "good"
+    },
+    {
+      "name": "OpenFinTech.io",
+      "url": "https://openfintech.io",
+      "description": "# Introduction\n[OpenFinTech.io](https://openfintech.io) is an open database that comprises of standardized primary data for FinTech industry.<br>\nIt contains such information as geolocation data (countries, cities, regions), organizations, currencies (national, digital, virtual, crypto), banks, digital exchangers, payment providers (PSP), payment methods, etc.<br>\nIt is created for communication of cross-integrated micro-services on \"one language\". This is achieved through standardization of entity identifiers that are used to exchange information among different services.<br>\n\n### UML\nUML Dom",
+      "documentation": "https://api.apis.guru/v2/specs/openfintech.io/2017-08-24/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Rebilly REST API",
+      "url": "https://rebilly.com",
+      "description": "# Introduction\nThe Rebilly API is built on HTTP.  Our API is RESTful.  It has predictable\nresource URLs.  It returns HTTP response codes to indicate errors.  It also\naccepts and returns JSON in the HTTP body.  You can use your favorite\nHTTP/REST library for your programming language to use Rebilly's API, or\nyou can use one of our SDKs (currently available in [PHP](https://github.com/Rebilly/rebilly-php)\nand [Javascript](https://github.com/Rebilly/rebilly-js-sdk)).\n\nWe have other APIs that are also available.  Every action from our [app](https://app.rebilly.com)\nis supported by an API which is ",
+      "documentation": "https://api.apis.guru/v2/specs/rebilly.com/2.1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "nfl"
+      ],
+      "score": 11.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "IdealSpot GeoData",
+      "url": "https://rapidapi.com:idealspot-geodata",
+      "description": "Hyperlocal Demographics, Vehicle Traffic, Economic, Market Signals, and More. Use this API to request IdealSpot hyperlocal geospatial market insight and geometry data. \n\n## Detailed Description\n\nUse this API as your **local economy microscope** by querying [IdealSpot](https://www.idealspot.com) hyperlocal market insight and geometry data. We offer the most precise, extensive, and frequently-updated local market data in the US. Our data is available across the entire US and can be queried at geographic scales ranging from the micro (Census block) through the macro (nation).\n\nBetter data and ana",
+      "documentation": "https://api.apis.guru/v2/specs/rapidapi.com/idealspot-geodata/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "precip",
+        "stats",
+        "weather"
+      ],
+      "score": 11.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "sports-arbitrage-system",
+      "url": "https://github.com/ratsam3474/sports-arbitrage-system",
+      "description": "Sports Arbitrage opportunity finder across multiple bookmakers and sends an email notification of the arbitrage opportunities.",
+      "documentation": "https://github.com/ratsam3474/sports-arbitrage-system",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "bookmaker",
+        "sports"
+      ],
+      "github_stars": 17,
+      "pushed_at": "2025-07-04T15:00:31Z",
+      "updated_at": "2025-07-22T10:54:55Z",
+      "score": 10.97,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "bunq API",
+      "url": "https://bunq.com",
+      "description": "***UPDATE:*** *We have released a [beta version of the new bunq API documentation.](https://beta.doc.bunq.com)*\n\n***NOTICE:***  *We have updated the sandbox base url to `https://public-api.sandbox.bunq.com/v1/`. Please update your applications accordingly. Check here: <https://github.com/bunq/sdk_php/issues/149> for more info.*\n\n***PSD2 NOTICE:*** *The second Payment Services Directive (PSD2) may affect your current or planned usage of our public API, as some of the API services are now subject to a permit. Please be aware that using our public API without the required PSD2 permit is at your o",
+      "documentation": "https://api.apis.guru/v2/specs/bunq.com/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "lines",
+        "news",
+        "schedule"
+      ],
+      "score": 10.8,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "API Reference: Billing",
+      "url": "https://zuora.com",
+      "description": "\n\n# Introduction\n\nWelcome to the reference for the Zuora Billing REST API!\n\nTo learn about the common use cases of Zuora Billing REST APIs, check out the [API Guides](https://www.zuora.com/developer/api-guides/).\n\nIn addition to Zuora API Reference; Billing, we also provide API references for other Zuora products:\n\n  * [API Reference: Collect](https://www.zuora.com/developer/collect-api/)\n  * [API Reference: Revenue](https://www.zuora.com/developer/revpro-api/)\n    \nThe Zuora REST API provides a broad set of operations and resources that:\n\n  * Enable Web Storefront integration from your websit",
+      "documentation": "https://api.apis.guru/v2/specs/zuora.com/2021-08-20/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "news",
+        "schedule"
+      ],
+      "score": 10.8,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "College Football Data API",
+      "url": "https://collegefootballdata.com",
+      "description": "This is an API for accessing all sorts of college football data.  Please note that API keys should be supplied with \"Bearer \" prepended (e.g. \"Bearer your_key\"). API keys can be acquired from the CollegeFootballData.com website.",
+      "documentation": "https://api.apis.guru/v2/specs/collegefootballdata.com/4.4.12/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "football"
+      ],
+      "score": 10.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Football Prediction API",
+      "url": "https://rapidapi.com:football-prediction",
+      "description": "The Football Prediction API allows developers to get predictions for upcoming football (soccer) matches, results for past matches, and performance monitoring for statistical models.",
+      "documentation": "https://api.apis.guru/v2/specs/rapidapi.com/football-prediction/2/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "football"
+      ],
+      "score": 10.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "CBB v3 Stats",
+      "url": "https://sportsdata.io:cbb-v3-stats",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/cbb-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports",
+        "stats"
+      ],
+      "score": 10.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "CS:GO v3 Stats",
+      "url": "https://sportsdata.io:csgo-v3-stats",
+      "description": "CS:GO v3 Stats",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/csgo-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports",
+        "stats"
+      ],
+      "score": 10.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "LoL v3 Stats",
+      "url": "https://sportsdata.io:lol-v3-stats",
+      "description": "LoL v3 Stats",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports",
+        "stats"
+      ],
+      "score": 10.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NBA v3 Stats",
+      "url": "https://sportsdata.io:nba-v3-stats",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports",
+        "stats"
+      ],
+      "score": 10.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NHL v3 Stats",
+      "url": "https://sportsdata.io:nhl-v3-stats",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports",
+        "stats"
+      ],
+      "score": 10.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Soccer v3 Stats",
+      "url": "https://sportsdata.io:soccer-v3-stats",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/soccer-v3-stats/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports",
+        "stats"
+      ],
+      "score": 10.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "News-Aggregator-Using-Python",
+      "url": "https://deepankarvarma-news-aggregator-using-python-app-ad4qel.streamlit.app/",
+      "description": "This repository contains the source code for a simple News Aggregator web application built using the NewsAPI and Streamlit. The app allows users to filter news by country and category and displays the top headlines from various sources in one place.",
+      "documentation": "https://github.com/deepankarvarma/News-Aggregator-Using-Python",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "aggregation",
+        "lines",
+        "news"
+      ],
+      "github_stars": 4,
+      "pushed_at": "2023-04-25T17:00:33Z",
+      "updated_at": "2025-06-15T09:34:58Z",
+      "score": 10.1,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "CBB v3 Scores",
+      "url": "https://sportsdata.io:cbb-v3-scores",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/cbb-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "scores",
+        "sports"
+      ],
+      "score": 9.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "CS:GO v3 Scores",
+      "url": "https://sportsdata.io:csgo-v3-scores",
+      "description": "CS:GO v3 Scores",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/csgo-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "scores",
+        "sports"
+      ],
+      "score": 9.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "LoL v3 Scores",
+      "url": "https://sportsdata.io:lol-v3-scores",
+      "description": "LoL v3 Scores",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "scores",
+        "sports"
+      ],
+      "score": 9.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "MLB v3 Scores",
+      "url": "https://sportsdata.io:mlb-v3-scores",
+      "description": "MLB scores API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "scores",
+        "sports"
+      ],
+      "score": 9.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NBA v3 Scores",
+      "url": "https://sportsdata.io:nba-v3-scores",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "scores",
+        "sports"
+      ],
+      "score": 9.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NHL v3 Scores",
+      "url": "https://sportsdata.io:nhl-v3-scores",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "scores",
+        "sports"
+      ],
+      "score": 9.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Soccer v3 Scores",
+      "url": "https://sportsdata.io:soccer-v3-scores",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/soccer-v3-scores/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "scores",
+        "sports"
+      ],
+      "score": 9.9,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Wager-Optimiser",
+      "url": "https://demo-wager-optimiser.streamlit.app/",
+      "description": "[Machine Learning] An end-to-end MLOps app which accurately predicts handicap results in the J1 League and optimises the potential return on bets.",
+      "documentation": "https://github.com/Jack-cky/Wager-Optimiser",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "football"
+      ],
+      "github_stars": 7,
+      "pushed_at": "2024-09-17T08:17:12Z",
+      "updated_at": "2025-03-12T01:29:50Z",
+      "score": 9.8,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "MLB v3 RotoBaller Premium News",
+      "url": "https://sportsdata.io:mlb-v3-rotoballer-premium-news",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-rotoballer-premium-news/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "news",
+        "sports"
+      ],
+      "score": 9.7,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NBA v3 RotoBaller Premium News",
+      "url": "https://sportsdata.io:nba-v3-rotoballer-premium-news",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-rotoballer-premium-news/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "news",
+        "sports"
+      ],
+      "score": 9.7,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Application Auto Scaling",
+      "url": "https://amazonaws.com:application-autoscaling",
+      "description": "<p>With Application Auto Scaling, you can configure automatic scaling for the following resources:</p> <ul> <li> <p>Amazon AppStream 2.0 fleets</p> </li> <li> <p>Amazon Aurora Replicas</p> </li> <li> <p>Amazon Comprehend document classification and entity recognizer endpoints</p> </li> <li> <p>Amazon DynamoDB tables and global secondary indexes throughput capacity</p> </li> <li> <p>Amazon ECS services</p> </li> <li> <p>Amazon ElastiCache for Redis clusters (replication groups)</p> </li> <li> <p>Amazon EMR clusters</p> </li> <li> <p>Amazon Keyspaces (for Apache Cassandra) tables</p> </li> <li> ",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/application-autoscaling/2016-02-06/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Auto Scaling",
+      "url": "https://amazonaws.com:autoscaling",
+      "description": "<fullname>Amazon EC2 Auto Scaling</fullname> <p>Amazon EC2 Auto Scaling is designed to automatically launch and terminate EC2 instances based on user-defined scaling policies, scheduled actions, and health checks.</p> <p>For more information, see the <a href=\"https://docs.aws.amazon.com/autoscaling/ec2/userguide/\">Amazon EC2 Auto Scaling User Guide</a> and the <a href=\"https://docs.aws.amazon.com/autoscaling/ec2/APIReference/Welcome.html\">Amazon EC2 Auto Scaling API Reference</a>.</p>",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/autoscaling/2011-01-01/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "AWS Data Pipeline",
+      "url": "https://amazonaws.com:datapipeline",
+      "description": "<p>AWS Data Pipeline configures and manages a data-driven workflow called a pipeline. AWS Data Pipeline handles the details of scheduling and ensuring that data dependencies are met so that your application can focus on processing the data.</p> <p>AWS Data Pipeline provides a JAR implementation of a task runner called AWS Data Pipeline Task Runner. AWS Data Pipeline Task Runner provides logic for common data management scenarios, such as performing database queries and running data analysis using Amazon Elastic MapReduce (Amazon EMR). You can use AWS Data Pipeline Task Runner as your task runn",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/datapipeline/2012-10-29/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Amazon EC2 Container Service",
+      "url": "https://amazonaws.com:ecs",
+      "description": "<fullname>Amazon Elastic Container Service</fullname> <p>Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service. It makes it easy to run, stop, and manage Docker containers. You can host your cluster on a serverless infrastructure that's managed by Amazon ECS by launching your services or tasks on Fargate. For more control, you can host your tasks on a cluster of Amazon Elastic Compute Cloud (Amazon EC2) or External (on-premises) instances that you manage.</p> <p>Amazon ECS makes it easy to launch and stop container-based applications with simple",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/ecs/2014-11-13/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Amazon EventBridge",
+      "url": "https://amazonaws.com:eventbridge",
+      "description": "<p>Amazon EventBridge helps you to respond to state changes in your Amazon Web Services resources. When your resources change state, they automatically send events to an event stream. You can create rules that match selected events in the stream and route them to targets to take action. You can also use rules to take action on a predetermined schedule. For example, you can configure rules to:</p> <ul> <li> <p>Automatically invoke an Lambda function to update DNS entries when an event notifies you that Amazon EC2 instance enters the running state.</p> </li> <li> <p>Direct specific API records f",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/eventbridge/2015-10-07/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Amazon CloudWatch Events",
+      "url": "https://amazonaws.com:events",
+      "description": "<p>Amazon EventBridge helps you to respond to state changes in your Amazon Web Services resources. When your resources change state, they automatically send events to an event stream. You can create rules that match selected events in the stream and route them to targets to take action. You can also use rules to take action on a predetermined schedule. For example, you can configure rules to:</p> <ul> <li> <p>Automatically invoke an Lambda function to update DNS entries when an event notifies you that Amazon EC2 instance enters the running state.</p> </li> <li> <p>Direct specific API records f",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/events/2015-10-07/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "AWS IoT Wireless",
+      "url": "https://amazonaws.com:iotwireless",
+      "description": "<p>AWS IoT Wireless provides bi-directional communication between internet-connected wireless devices and the AWS Cloud. To onboard both LoRaWAN and Sidewalk devices to AWS IoT, use the IoT Wireless API. These wireless devices use the Low Power Wide Area Networking (LPWAN) communication protocol to communicate with AWS IoT.</p> <p>Using the API, you can perform create, read, update, and delete operations for your wireless devices, gateways, destinations, and profiles. After onboarding your devices, you can use the API operations to set log levels and monitor your devices with CloudWatch.</p> <",
+      "documentation": "https://api.apis.guru/v2/specs/amazonaws.com/iotwireless/2020-11-22/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "AutomationManagement",
+      "url": "https://azure.com:automation-jobSchedule",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/azure.com/automation-jobSchedule/2015-10-31/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "AutomationManagement",
+      "url": "https://azure.com:automation-schedule",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/azure.com/automation-schedule/2015-10-31/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Microsoft Insights",
+      "url": "https://azure.com:monitor-scheduledQueryRule_API",
+      "description": "Azure Monitor client to create/update/delete Scheduled Query Rules",
+      "documentation": "https://api.apis.guru/v2/specs/azure.com/monitor-scheduledQueryRule_API/2018-04-16/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "SchedulerManagementClient",
+      "url": "https://azure.com:scheduler",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/azure.com/scheduler/2014-08-01-preview/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "BeezUP Merchant API ",
+      "url": "https://beezup.com",
+      "description": "# The REST API of BeezUP system\n## Overview\nThe REST APIs provide programmatic access to read and write BeezUP data. \nBasically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !\n\nThe main features are:\n- Register and manage your account\n- Create and manage and share your stores with your friends/co-workers.\n- Import your product catalog and schedule the auto importation\n- Search the channels your want to use\n- Configure your channels for your catalogs to export your product information:\n    - cost and general settings\n    - category and",
+      "documentation": "https://api.apis.guru/v2/specs/beezup.com/2.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "GoToMeeting",
+      "url": "https://citrixonline.com:gotomeeting",
+      "description": "<br>The GoToMeeting API provides seamless integration of GoToMeeting provisioning and meeting management into your existing infrastructure or third party applications.<br><br>For customers, the ability to add, suspend or delete an organizer in your GoToMeeting Corporate account from within your primary management systems simplifies and streamlines the entire process of account management. The ability to monitor meeting schedules, history and active meeting status allows managers to leverage GoToMeeting activities through your primary applications.<br><br>For third parties, the ability to creat",
+      "documentation": "https://api.apis.guru/v2/specs/citrixonline.com/gotomeeting/1.0.0/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "lines",
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "ClickSend REST API v3",
+      "url": "https://clicksend.com",
+      "description": "This is the official API documentation for ClickSend.com\n\nBelow you will find a current list of the available methods for clicksend.\n\n**NOTE**: You will need to create a free account to use the API.\n\nYou can\n[**Register Here**](https://dashboard.clicksend.com/#/signup/step1/).\n\n# API URL\n\nThe API should always be accessed over SSL.\n\nBase URL: `https://rest.clicksend.com/v3/`\n\n# Authentication\n\nBasic HTTP authentication should be used in the header.\n\n**Either:**\n\n`username`: Your API username\n\n`password`: Your API key\n\n```\nYou can get your API credentials by clicking 'API Credentials' on the to",
+      "documentation": "https://api.apis.guru/v2/specs/clicksend.com/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Contract.fit API",
+      "url": "https://contract-p.fit",
+      "description": "This OpenAPI describes the API exposed by the contract.fit backend.\n\n## Security\n\n### Authentication\n\nAll endpoints are protected: you need to make authenticated calls. There are 3 authentication mechanisms:\n- HTTP Basic (Username + Password)\n- JWT Token\n- API-Key\n\nBy default you should have an account allowing you to bootstrap your tenant and create users and roles, using Basic Auth or after creating a Token  - see */auth* endpoints.\n\nIf you are missing credentials or permissions, please [contact us](https://contract.fit/contact-us).\n\n### Authorization\n\nThe security system is RBAC based: user",
+      "documentation": "https://api.apis.guru/v2/specs/contract-p.fit/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "drchrono.com",
+      "url": "https://drchrono.com",
+      "description": "This document is intended as a detailed reference for the precise behavior of\nthe drchrono API. If this is your first time using the API, start with our <a href=\"/api-docs-old/tutorial\">tutorial</a>. If you are upgrading from a previous version, take a look at the changelog section.\n\n# Authorization\n\n## Initial authorization\n\nThere are three main steps in the OAuth 2.0 authentication workflow:\n\n1. Redirect the provider to the authorization page.\n2. The provider authorizes your application and is redirected back to\n   your web application.\n3. Your application exchanges the `authorization_code` ",
+      "documentation": "https://api.apis.guru/v2/specs/drchrono.com/v4 (Hunt Valley)/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "exchange",
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "OpenFEC",
+      "url": "https://fec.gov",
+      "description": "This application programming interface (API) allows you to explore the way candidates and committees fund their campaigns. \n\n The Federal Election Commission (FEC) API is a RESTful web service supporting full-text and field-specific searches on FEC data. [Bulk downloads](https://www.fec.gov/data/advanced/?tab=bulk-data) are available on the current site. Information is tied to the underlying forms by file ID and image ID. Data is updated nightly. \n\n There are a lot of data, and a good place to start is to use search to find interesting candidates and committees. Then, you can use their IDs to ",
+      "documentation": "https://api.apis.guru/v2/specs/fec.gov/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "FRC Events",
+      "url": "https://firstinspires.org",
+      "description": "<html><head></head><body><h1 id=\"overview\">Overview</h1>\n<p><em>FIRST</em>/FMS FRC Events API is a service to return relevant information about the <em>FIRST</em> Robotics Competition (FRC). Information is made available from events operating around the world.</p>\n<p>For FRC, information is made available by the Field Management System (FMS) server operating at each event site. The FMS will attempt to sync all data from the event to \"the cloud\" as long as internet is available at the venue. If internet is unavailable, or \"goes down\" during the event, the FMS will automatically sync all data fr",
+      "documentation": "https://api.apis.guru/v2/specs/firstinspires.org/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "BigQuery Data Transfer API",
+      "url": "https://googleapis.com:bigquerydatatransfer",
+      "description": "Schedule queries or transfer external data from SaaS applications to Google BigQuery on a regular basis.",
+      "documentation": "https://api.apis.guru/v2/specs/googleapis.com/bigquerydatatransfer/v1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Cloud Scheduler API",
+      "url": "https://googleapis.com:cloudscheduler",
+      "description": "Creates and manages jobs run on a regular recurring schedule.",
+      "documentation": "https://api.apis.guru/v2/specs/googleapis.com/cloudscheduler/v1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "YouTube Reporting API",
+      "url": "https://googleapis.com:youtubereporting",
+      "description": "Schedules reporting jobs containing your YouTube Analytics data and downloads the resulting bulk data reports in the form of CSV files.",
+      "documentation": "https://api.apis.guru/v2/specs/googleapis.com/youtubereporting/v1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "import.io",
+      "url": "https://import.io:schedule",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/import.io/schedule/1.0/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Account and Transaction API Specification - UK",
+      "url": "https://nbg.gr",
+      "description": "## Functionality at a glance\r\n\r\nThe NBG \"UK OPB - Account and Transaction v3.1.5\" API follows the [UK Open Banking Specification\r\n    v3.1.5](https://openbankinguk.github.io/read-write-api-site3/v3.1.5/profiles/account-and-transaction-api-profile.html)\r\n\r\nThis Account and Transaction API Specification describes the flows and payloads for retrieving a list of accounts and their transactions.\r\n\r\nThe API endpoints described here allow a AISP to:  \r\n\r\n* Create the Consent with the appropriate permissions in order to be able to access the API Endpoints\r\n\r\n* Retrieve the list of accounts\r\n\r\n* Retrie",
+      "documentation": "https://api.apis.guru/v2/specs/nbg.gr/v3.1.5/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Probely Developers",
+      "url": "https://probely.com",
+      "description": "Probely is a Web Vulnerability Scanning suite for Agile Teams. It provides\ncontinuous scanning of your Web Applications and lets you efficiently\nmanage the lifecycle of the vulnerabilities found, in a sleek and\nintuitive ~~web interface~~ API.\n\n## Quick-Start\n\n### Authentication\n\nTo use the API, you first need to create a token (API Key).\nTo create a token, select a target from the drop-down list, go to the\n\"Settings\" page, and click on the \"Integrations\" tab.\n\nWrite a name for the API Key. For example, if you want to use the API Key\nfor travis,\nyou could name it \"travis\". In this example, we ",
+      "documentation": "https://api.apis.guru/v2/specs/probely.com/1.2.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule",
+        "teams"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "team_generic",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "PTV Timetable API - Version 3",
+      "url": "https://ptv.vic.gov.au",
+      "description": "The PTV Timetable API provides direct access to Public Transport Victoria\u2019s public transport timetable data.\r\n\r\nThe API returns scheduled timetable, route and stop data for all metropolitan and regional train, tram and bus services in Victoria, including Night Network(Night Train and Night Tram data are included in metropolitan train and tram services data, respectively, whereas Night Bus is a separate route type).\r\n\r\nThe API also returns real-time data for metropolitan train, tram and bus services (where this data is made available to PTV), as well as disruption information, stop facility inf",
+      "documentation": "https://api.apis.guru/v2/specs/ptv.vic.gov.au/v3/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "The SureVoIP RESTful API",
+      "url": "https://surevoip.co.uk",
+      "description": "# Introduction\nWelcome to the SureVoIP RESTful hypermedia API (sometimes known as a VoIP REST API, Telecom REST API, SIP API, Hypermedia API or just VoIP API.)\n\nThe SureVoIP API is a way for you to automate your interaction with the SureVoIP platforms. With the API, you can create your own scripts, applications or mashups which can:\n* List calls\n* create customers\n* search numbers\n* provision numbers\n* send SMS texts\n* create outbound calls\n* schedule announcements\n* schedule call hangups with an announcement\n* subscribe to events/alerts\n* track calls\n* retrieve invoices\n* grab your SIP detail",
+      "documentation": "https://api.apis.guru/v2/specs/surevoip.co.uk/9dcb0dc8/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Subscriptions API (v2 - DEPRECATED)",
+      "url": "https://vtex.local:Subscriptions-API-(v2)",
+      "description": "VTEX Subscriptions REST API Documentation\n\nThis documentation describes the available REST APIs for VTEX Subscription System.\n\nWith Subscriptions you can set up regularly scheduled deliveries.\n\nAll requests need authorization (VTEX Id authentication token or VTEX Appkey and Apptoken headers)",
+      "documentation": "https://api.apis.guru/v2/specs/vtex.local/Subscriptions-API-(v2)/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Bus Route and Stop Methods",
+      "url": "https://wmata.com:bus-route",
+      "description": "Bus stop information, route and schedule data, and bus positions.",
+      "documentation": "https://api.apis.guru/v2/specs/wmata.com/bus-route/1.0/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "schedule"
+      ],
+      "score": 9.2,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Groundhog Day API",
+      "url": "https://groundhog-day.com",
+      "description": "This API returns all of North America\u2019s prognosticating animals and their yearly weather predictions.",
+      "documentation": "https://api.apis.guru/v2/specs/groundhog-day.com/1.2.1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Interzoid Get Weather City API",
+      "url": "https://interzoid.com:getweathercity",
+      "description": "This API provides current weather information for US Cities, including temperatures, wind speeds, wind direction, relative humidity, and visibility.",
+      "documentation": "https://api.apis.guru/v2/specs/interzoid.com/getweathercity/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "weather",
+        "wind"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Interzoid Get Weather By Zip Code API",
+      "url": "https://interzoid.com:getweatherzip",
+      "description": "This API provides current weather information for US Cities, including temperatures, wind speeds, wind direction, relative humidity, and visibility.",
+      "documentation": "https://api.apis.guru/v2/specs/interzoid.com/getweatherzip/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "weather",
+        "wind"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "IP2Location IP Geolocation",
+      "url": "https://ip2location.com:geolocation",
+      "description": "IP2Location web service providing a service to do a reverse lookup of an IP address to an ISO3166 country code, region or state, city, latitude and longitude, ZIP/Postal code, time zone, Internet Service Provider (ISP) or company name, domain name, net speed, area code, weather station code, weather station name, mobile country code (MCC), mobile network code (MNC) and carrier brand, elevation, usage type, address type and IAB category. There are also 7 categories of additional add-on response fields supported such as metro, olson time zone, translations and more. Refer to https://www.ip2locat",
+      "documentation": "https://api.apis.guru/v2/specs/ip2location.com/geolocation/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "IP2Location.io IP Geolocation API",
+      "url": "https://ip2location.io",
+      "description": "IP2Location.io IP Geolocation API provides RESTful API to obtain visitors\u2019 geolocation information such as country, region, city, latitude & longitude, ZIP code, time zone, ASN, ISP, domain, net speed, IDD code, area code, weather station data, MNC, MCC, mobile brand, elevation, usage type, address type, advertisement category and proxy data with an IP address.",
+      "documentation": "https://api.apis.guru/v2/specs/ip2location.io/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "DFlight API",
+      "url": "https://ljaero.com:dflight",
+      "description": "[DFlight API](https://ljaero.com/solutions/dflight/) supplies the up-to-date information needed for compliance with UAV preflight assessment requirements. Separate endpoints are available for each of the following information categories:\n- Airspace\n- Weather\n- Temporary Flight Restrictions\n- Special Security Areas\n- Restricted Public Venues\n- Surface Obstacles\n- Aerodromes\n- UAS Operating Areas\n\nYou can define your geographic area of interest in one of three convenient ways:\n- Providing a latitude/longitude point and distance around that point\n- Providing a GeoJSON LineString defining your rou",
+      "documentation": "https://api.apis.guru/v2/specs/ljaero.com/dflight/V 1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "lines",
+        "surface",
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "ODWeather",
+      "url": "https://oceandrivers.com",
+      "description": "This is the api to access the ODWeather API information",
+      "documentation": "https://api.apis.guru/v2/specs/oceandrivers.com/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Daymet Single Pixel Extraction Tool API",
+      "url": "https://ornl.gov:daymet",
+      "description": "Welcome to the Daymet Single Pixel Extraction Tool API. You can use this API to download daily surface data within the Daymet database in a `csv` or `json` format for a single point. This API allows users to query a single geographic point by latitude and longitude in decimal degrees. A routine is executed that translates the (lon, lat) coordinates into projected Daymet (x,y) Lambert Conformal Coordinates. These coordinates are used to access the Daymet database of daily interpolated surface weather variables. Daily data from the nearest 1 km x 1 km Daymet grid cell are extracted from the data",
+      "documentation": "https://api.apis.guru/v2/specs/ornl.gov/daymet/1.0.2/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "surface",
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Storm Glass Marine Weather",
+      "url": "https://stormglass.io",
+      "description": "Global marine weather data from multiple sources in one single API with hourly resolution. Get your API key by visiting the Storm Glass web site.",
+      "documentation": "https://api.apis.guru/v2/specs/stormglass.io/1.0.1/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Visual Crossing Weather API",
+      "url": "https://visualcrossing.com:weather",
+      "description": "Weather Forecast and Historical Weather Data via RESTful API.",
+      "documentation": "https://api.apis.guru/v2/specs/visualcrossing.com/weather/4.6/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "forecast",
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Weatherbit - Interactive Swagger UI Documentation",
+      "url": "https://weatherbit.io",
+      "description": "This an interactive version of the documentation for the Weatherbit API.  The base URL for the API is [http://api.weatherbit.io/v2.0/](http://api.weatherbit.io/v2.0/) or [https://api.weatherbit.io/v2.0/](http://api.weatherbit.io/v2.0/). Below is the Swagger UI documentation for the API. All API requests require the `key` parameter.        An Example for a 48 hour forecast for London, UK would be `http://api.weatherbit.io/v2.0/forecast/hourly?lat=51.5072`&`lon=-0.1276`. See our [Weather API description page](https://www.weatherbit.io/api) for the full documentation.",
+      "documentation": "https://api.apis.guru/v2/specs/weatherbit.io/2.0.0/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "forecast",
+        "weather"
+      ],
+      "score": 9.0,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Budgea API Documentation",
+      "url": "https://biapi.pro",
+      "description": "# Budgea Development Guides\n\nWelcome to **Budgea**'s documentation.\n\nThis documentation is intended to get you up-and-running with our APIs and advise on the implementation of some regulatory aspects of your application, following the DSP2's guidelines.\n\n## Getting Started\n**IMPORTANT**\nDepending on your status with regard of the DSP2 regulation, **agent** or **partner**, you may call our APIs or simply use our Webview and callbacks to get the financial data of your users.\nAs an **agent**, you are allowed to call directly our APIs and implement your own form to get the user's credentials.\nAs a",
+      "documentation": "https://api.apis.guru/v2/specs/biapi.pro/2.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "aggregation",
+        "exchange",
+        "lines"
+      ],
+      "score": 8.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Health Data Consent Manager",
+      "url": "https://ndhm.gov.in:ndhm-cm",
+      "description": "Entity which provides health information aggregation services to customers of health care services.\nIt enables customers to fetch their health information from one or more Health Information Providers\n(e.g., Hospitals, Diagnostic Labs, Medical Device Companies), based on their explicit Consent and to share such\naggregated information with Health Information Users i.e. entities in need of such data (e.g., Insurers,\nDoctors, Medical Researchers).\n\n# Specifications\n1. This document maintains only the Health Information Gateway relevant APIs. \n",
+      "documentation": "https://api.apis.guru/v2/specs/ndhm.gov.in/ndhm-cm/0.5/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "aggregation"
+      ],
+      "score": 8.6,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "ShouldBeWinnable",
+      "url": "https://github.com/blustix/ShouldBeWinnable",
+      "description": "Matched Betting Projects",
+      "documentation": "https://github.com/blustix/ShouldBeWinnable",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting"
+      ],
+      "github_stars": 2,
+      "pushed_at": "2025-02-09T05:17:33Z",
+      "updated_at": "2025-02-16T05:28:46Z",
+      "score": 8.38,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "freebets-public",
+      "url": "https://github.com/oakleyp/freebets-public",
+      "description": "Real-time platform for automated technical and predictive horse race betting strategies",
+      "documentation": "https://github.com/oakleyp/freebets-public",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting"
+      ],
+      "github_stars": 2,
+      "pushed_at": "2022-10-02T21:29:36Z",
+      "updated_at": "2025-03-06T04:59:13Z",
+      "score": 8.38,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "scrape_action",
+      "url": "https://github.com/nkasmanoff/scrape_action",
+      "description": "A tool to scrape to scrape action network's available information on betting lines for a given sport. ",
+      "documentation": "https://github.com/nkasmanoff/scrape_action",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "github-search",
+      "tags": [
+        "betting",
+        "lines"
+      ],
+      "github_stars": 2,
+      "pushed_at": "2019-10-25T20:04:24Z",
+      "updated_at": "2024-08-29T02:11:57Z",
+      "score": 8.38,
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Transport Department, Sikkim",
+      "url": "https://apisetu.gov.in:transportsk",
+      "description": "Driving License (DL) and Vehicle Registration Certificate (RC) of the State, as available on Parivahan Sewa (http://parivahan.co.in/) of Ministry of Road Transport and Highways, are available on DigiLocker. Citizens can pull these documents into their DigiLocker accounts.",
+      "documentation": "https://api.apis.guru/v2/specs/apisetu.gov.in/transportsk/3.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Frankie Financial API",
+      "url": "https://frankiefinancial.io",
+      "description": "------  \nThis API allows developers to integrate the Frankie Financial Compliance Utility into their applications. The API allows:\n  - Checking name, address, date of birth against national databases\n  - Validating Australian driver's licences, passports, medicare, visas and other Australian national ID documents\n  - Validating Australian electricity bills\n  - Validating NZ driver's licences\n  - Validating Chinese bank cards and national ID card\n  - Validating International passports and national ID documents\n  - PEP, Sanctions, Watchlist and adverse media checking\n  - Australian visa checks \n",
+      "documentation": "https://api.apis.guru/v2/specs/frankiefinancial.io/1.5.3/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Geneea Natural Language Processing",
+      "url": "https://geneea.com",
+      "description": "<div class=\"api-description\">\n    <h2>Authentication</h2>\n    <p>For all calls, supply your API key. <a href=\"https://www.geneea.com/pricing\">Sign up to <em>obtain the key</em></a>.</p>\n    <p>\n        Our API supports both <em>unencrypted (HTTP)</em> and <em>encrypted (HTTPS)</em> protocols.\n        However, for security reasons, we strongly encourage using only the encrypted version.\n    </p>\n    <p>The API key should be supplied as either a request parameter <code>user_key</code> or in <code>Authorization</code> header.</p>\n    <pre><code>Authorization: user_key &lt;YOUR_API_KEY&gt;</code><",
+      "documentation": "https://api.apis.guru/v2/specs/geneea.com/1.0/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "PandaScore REST API for All Videogames",
+      "url": "https://pandascore.co",
+      "description": "\n# Introduction\n\nWhether you're looking to build an official Pandascore integration for your service, or you just want to build something awesome, [we can help you get started](/home).\n\nThe API works over the HTTPS protocol, and is accessed from the `api.pandascore.co` domain.\n\n- The current endpoint is [https://api.pandascore.co](https://api.pandascore.co).\n- All data is sent and received as JSON by default.\n- Blank fields are included with `null` values instead of being omitted.\n- All timestamps are returned in ISO-8601 format\n\n### About this documentation\n\nClicking on a query parameter like",
+      "documentation": "https://api.apis.guru/v2/specs/pandascore.co/2.23.1/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "player",
+        "sports",
+        "teams"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Snyk API",
+      "url": "https://snyk.io",
+      "description": "The Snyk API is available to customers on [Business and Enterprise plans](https://snyk.io/plans) and allows you to programatically integrate with Snyk.\n\n## REST API\n\nWe are in the process of building a new, improved API (`https://api.snyk.io/rest`) built using the OpenAPI and JSON API standards. We welcome you to try it out as we shape and release endpoints until it, ultimately, becomes a full replacement for our current API.\n\nLooking for our REST API docs? Please head over to [https://apidocs.snyk.io](https://apidocs.snyk.io)\n\n## API vs CLI vs Snyk integration\n\nThe API detailed below has the ",
+      "documentation": "https://api.apis.guru/v2/specs/snyk.io/1.0.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Golf v2",
+      "url": "https://sportsdata.io:golf-v2",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/golf-v2/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "LoL v3 Projections",
+      "url": "https://sportsdata.io:lol-v3-projections",
+      "description": "LoL v3 Projections",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-projections/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "MLB v3 Play-by-Play",
+      "url": "https://sportsdata.io:mlb-v3-play-by-play",
+      "description": "MLB play-by-play API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-play-by-play/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "MLB v3 Projections",
+      "url": "https://sportsdata.io:mlb-v3-projections",
+      "description": "MLB projections API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-projections/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "MLB v3 RotoBaller Articles",
+      "url": "https://sportsdata.io:mlb-v3-rotoballer-articles",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-rotoballer-articles/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NASCAR v2",
+      "url": "https://sportsdata.io:nascar-v2",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nascar-v2/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NBA v3 Play-by-Play",
+      "url": "https://sportsdata.io:nba-v3-play-by-play",
+      "description": "NBA play-by-play API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-play-by-play/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NBA v3 Projections",
+      "url": "https://sportsdata.io:nba-v3-projections",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-projections/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NBA v3 RotoBaller Articles",
+      "url": "https://sportsdata.io:nba-v3-rotoballer-articles",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-rotoballer-articles/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NHL v3 Play-by-Play",
+      "url": "https://sportsdata.io:nhl-v3-play-by-play",
+      "description": "NHL play-by-play API.",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-play-by-play/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "NHL v3 Projections",
+      "url": "https://sportsdata.io:nhl-v3-projections",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-projections/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "Soccer v3 Projections",
+      "url": "https://sportsdata.io:soccer-v3-projections",
+      "description": "",
+      "documentation": "https://api.apis.guru/v2/specs/sportsdata.io/soccer-v3-projections/1.0/openapi.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    },
+    {
+      "name": "SportsData API",
+      "url": "https://whapi.com:sportsdata",
+      "description": "The William Hill SportsData REST API is a collection of GET methods to provide William Hill product data such as sport, competition, event, market and selection data (including prices).",
+      "documentation": "https://api.apis.guru/v2/specs/whapi.com/sportsdata/2/swagger.json",
+      "https": true,
+      "free": true,
+      "auth": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports"
+      ],
+      "score": 8.1,
+      "updated_at": "2025-08-20T07:02:41Z",
+      "id_scheme": "unknown",
+      "compatibility": "unknown"
+    }
+  ]
+}

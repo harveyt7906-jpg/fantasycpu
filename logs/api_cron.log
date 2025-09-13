@@ -1,0 +1,51 @@
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [08/Sep/2025 06:44:28] "[33mGET /callback?code=m4rfa9ffmuynrrjdg6xh3kfjzrjkcpbs HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 06:44:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 06:46:57] "[33mGET /callback?code=n8yqwxmzzq5sd5xfu5mm76xttghy73ka HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 06:47:14] "[33mGET /callback HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 06:58:19] "[33mGET /callback?code=24y6dz4nrqajg22w7hjyrr6yk4qjq7xr HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:29:54] "[33mGET /callback?code=uh29r2qufjpw823rvymgxcbypfegucwj HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:55:14] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2025 18:55:21] "[33mGET /test_claude HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:55:40] "[33mGET /hc?week=2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:55:40] "[33mGET /gm?week=2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:55:40] "[33mGET /scout?week=2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:55:40] "[33mGET /all?week=2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:56:01] code 400, message Bad request version ('\x86²\x89~\x8dg\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+127.0.0.1 - - [08/Sep/2025 18:56:01] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03h\x18!Y¡×\x1c\x13@G5\x0e\x8e¥\x10ëBù+vçÃ\x0e³Ñf\x91eÚãÙ\x1b ªë\x98SÊ´>t\x10\x87Þc\x1eàViî\x90wh/\x8a\x04\x0d=\x0b\x86²\x89~\x8dg\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+127.0.0.1 - - [08/Sep/2025 18:56:01] code 400, message Bad request version ('yºüc\x10\x86\x8fõ¦R°²\x9aà\x80-\x80ß\x02\x00,ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+127.0.0.1 - - [08/Sep/2025 18:56:01] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03[ÑÖü \x17°À~Q¶\x16²\x92ß\x19\x93v·\x16Nÿ¬^\x08Ô\x99÷o\x154c Î\x86\x13õtr}¿)Î@\x1b\x85yºüc\x10\x86\x8fõ¦R°²\x9aà\x80-\x80ß\x02\x00,ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+127.0.0.1 - - [08/Sep/2025 18:56:01] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01u0¿\x84g×JÙ#¦')
+127.0.0.1 - - [08/Sep/2025 18:56:01] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01u0¿\x84g×JÙ#¦\x1fà\x86Ôq\x14®\x94n½{1c\x8f\x88*Ñ2µè\x02#\x00\x00\x14À[0m" 400 -
+127.0.0.1 - - [08/Sep/2025 18:58:50] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2025 18:58:50] "[33mGET /test_claude HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:58:50] "[33mGET /hc?week=2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 18:58:50] "[33mGET /all?week=2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 19:02:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2025 19:02:45] "[33mGET /test_claude HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 19:02:45] "[33mGET /hc?week=2 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Sep/2025 19:02:45] "[33mGET /all?week=2 HTTP/1.1[0m" 404 -
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+Address already in use
+Port 5101 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+Address already in use
+Port 5101 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+Address already in use
+Port 5101 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+Address already in use
+Port 5101 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'watson_aristotle_api'
+ * Debug mode: off
+Address already in use
+Port 5101 is in use by another program. Either identify and stop that program, or start the server with a different port.

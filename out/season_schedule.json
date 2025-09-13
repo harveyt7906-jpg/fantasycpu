@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "team": "CIN",
+    "games": 14,
+    "expected_wins": 11.65,
+    "expected_record": "12-2",
+    "note": "Power is draft-based; will improve as roster/projections update.",
+    "schedule_source": "/Users/thomasharvey/Documents/matchups.csv"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "me": "CIN",
+      "opponent": "COACH_SONNEIBO",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 2,
+      "me": "CIN",
+      "opponent": "All Barkley No Bite",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 3,
+      "me": "CIN",
+      "opponent": "Coach Mode Randall",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 4,
+      "me": "CIN",
+      "opponent": "Local sports team",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 5,
+      "me": "CIN",
+      "opponent": "Modelos__TDs",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 6,
+      "me": "CIN",
+      "opponent": "It_be_like_that",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 7,
+      "me": "CIN",
+      "opponent": "Purdy Eazy Skonkas",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 8,
+      "me": "CIN",
+      "opponent": "SLAMDUNK",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 9,
+      "me": "CIN",
+      "opponent": "Uncle Lous zaddy\u2019s boys",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 10,
+      "me": "CIN",
+      "opponent": "Kimochi_Inc.",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 11,
+      "me": "CIN",
+      "opponent": "Zero_Dark_Purdy",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 12,
+      "me": "CIN",
+      "opponent": "COACH_SONNEIBO",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 13,
+      "me": "CIN",
+      "opponent": "All Barkley No Bite",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    },
+    {
+      "week": 14,
+      "me": "CIN",
+      "opponent": "Coach Mode Randall",
+      "my_power": 0.98,
+      "opp_power": 0.5,
+      "win_prob": 83.2
+    }
+  ]
+}
