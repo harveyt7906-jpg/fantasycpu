@@ -13,8 +13,9 @@ from utils_core import (
     fetch_weather_data,
     fetch_sleeper_players,
     fetch_yahoo_players,
-    fetch_yahoo_transactions
+    fetch_yahoo_transactions,
 )
+
 
 def run_data_collection():
     # Prepare output folder
@@ -94,6 +95,7 @@ def run_data_collection():
             print(f"[Cron Job] Postgres insert failed ❌: {e}")
     else:
         print("[Cron Job] Skipped Postgres (DATABASE_URL not set)")
+
 
 if __name__ == "__main__":
     run_data_collection()
