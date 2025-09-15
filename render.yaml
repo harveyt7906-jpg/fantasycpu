@@ -1,19 +1,21 @@
-@app.route("/api/run/nightly")
-def api_run_nightly():
-    try:
-        roster=utils_core.load_roster()
-        odds=utils_core.fetch_vegas_odds()
-        weather=utils_core.fetch_weather_data()
-        opponent=None
+services:
+  - type: web
+    name: fantasycpu
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn thanos:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12
 
-        head=team_logic.run_head_coach_logic(roster,odds,weather,opponent)
-        gm=general_manager_logic.run_general_manager_logic(roster,odds,weather)
-        waiver=waiver_logic.run_waiver_logic(roster,odds,weather)
-        scout=scout_logic.run_scout_logic(opponent if opponent else roster,odds,weather)
-        learn=learning.refine_strategy()
-
-        results={"timestamp":datetime.utcnow().isoformat(),"head_coach":head,"gm":gm,"waiver":waiver,"scout":scout,"learning":learn}
-        save_run_to_db("nightly_manual",results)
-        return jsonify(results)
-    except Exception as e:
-        return jsonify({"error":str(e)}),500
+  - type: cron
+    name: fantasycpu-cron
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python cron_job.py
+    schedule: "0 5 * * *"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12
