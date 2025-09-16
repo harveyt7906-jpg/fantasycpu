@@ -1,10 +1,12 @@
 import os, json
 from datetime import datetime
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_from_directory
 import psycopg2
+import numpy as np
 import utils_core, team_logic, general_manager_logic, waiver_logic, scout_logic, learning
+from thanos_council import consult_council
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static")
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 def get_db_conn():
@@ -24,10 +26,16 @@ def save_run_to_db(kind, payload):
     except Exception as e:
         print(f"DB save failed: {e}")
 
+# ------------------ React UI ------------------
 @app.route("/")
-def index():
-    return jsonify({"message": "Thanos AI Council online"})
+def serve_ui():
+    return send_from_directory(app.static_folder, "index.html")
 
+@app.errorhandler(404)
+def not_found(e):
+    return send_from_directory(app.static_folder, "index.html")
+
+# ------------------ API ------------------
 @app.route("/api/run/head_coach")
 def api_head_coach():
     try:
@@ -94,13 +102,11 @@ def api_nightly():
         odds = utils_core.fetch_vegas_odds()
         weather = utils_core.fetch_weather_data()
         opponent = None
-
         head = team_logic.run_head_coach_logic(roster, odds, weather, opponent)
         gm = general_manager_logic.run_general_manager_logic(roster, odds, weather)
         waiver = waiver_logic.run_waiver_logic(roster, odds, weather)
         scout = scout_logic.run_scout_logic(opponent if opponent else roster, odds, weather)
         learn = learning.refine_strategy()
-
         results = {
             "timestamp": datetime.utcnow().isoformat(),
             "head_coach": head,
@@ -111,6 +117,60 @@ def api_nightly():
         }
         save_run_to_db("nightly_manual", results)
         return jsonify(results)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/decree")
+def api_decree():
+    try:
+        roster = utils_core.load_roster()
+        odds = utils_core.fetch_vegas_odds()
+        weather = utils_core.fetch_weather_data()
+        opponent = None
+        head = team_logic.run_head_coach_logic(roster, odds, weather, opponent)
+        gm = general_manager_logic.run_general_manager_logic(roster, odds, weather)
+        waiver = waiver_logic.run_waiver_logic(roster, odds, weather)
+        scout = scout_logic.run_scout_logic(opponent if opponent else roster, odds, weather)
+        learn = learning.refine_strategy()
+        bundle = {"head_coach": head, "gm": gm, "waiver": waiver, "scout": scout, "learning": learn}
+        council = consult_council("time_keepers", bundle)
+        decree = {"bundle": bundle, "decree": council}
+        save_run_to_db("decree", decree)
+        return jsonify(decree)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/history")
+def api_history():
+    try:
+        conn = get_db_conn()
+        cur = conn.cursor()
+        cur.execute("SELECT ts,kind,payload FROM runs ORDER BY ts DESC LIMIT 50")
+        rows = cur.fetchall()
+        cur.close()
+        conn.close()
+        history = [{"ts": str(r[0]), "kind": r[1], "payload": r[2]} for r in rows]
+        return jsonify(history)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/season")
+def api_season():
+    try:
+        conn = get_db_conn()
+        cur = conn.cursor()
+        cur.execute("SELECT payload FROM runs WHERE kind='head_coach' ORDER BY ts DESC LIMIT 100")
+        rows = cur.fetchall()
+        cur.close()
+        conn.close()
+        win_probs = [r[0].get("logic", {}).get("win_prob", 0.5) for r in rows if isinstance(r[0], dict)]
+        if not win_probs:
+            return jsonify({"error": "no data"})
+        avg_win = float(np.mean(win_probs))
+        playoff_odds = min(1.0, avg_win * 1.2)
+        champ_odds = min(1.0, avg_win * 0.8)
+        outlook = {"games_sampled": len(win_probs), "avg_win_prob": avg_win, "playoff_odds": playoff_odds, "champ_odds": champ_odds}
+        return jsonify(outlook)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
