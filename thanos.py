@@ -9,10 +9,8 @@ from thanos_council import consult_council
 app = Flask(__name__, static_folder="static")
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-
 def get_db_conn():
     return psycopg2.connect(DATABASE_URL)
-
 
 def save_run_to_db(kind, payload):
     try:
@@ -31,17 +29,35 @@ def save_run_to_db(kind, payload):
     except Exception as e:
         print(f"DB save failed: {e}")
 
-
 # ------------------ React UI ------------------
 @app.route("/")
 def serve_ui():
     return send_from_directory(app.static_folder, "index.html")
 
-
 @app.errorhandler(404)
 def not_found(e):
     return send_from_directory(app.static_folder, "index.html")
 
+@app.route("/<path:path>")
+def serve_react(path):
+    if os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    return send_from_directory(app.static_folder, "index.html")
+
+# ------------------ Health ------------------
+@app.route("/api/health")
+def api_health():
+    status = {"status": "ok", "db": "ok", "timestamp": datetime.utcnow().isoformat()}
+    try:
+        conn = get_db_conn()
+        cur = conn.cursor()
+        cur.execute("SELECT 1;")
+        cur.fetchone()
+        cur.close()
+        conn.close()
+    except Exception as e:
+        status["db"] = f"error: {e}"
+    return jsonify(status)
 
 # ------------------ API ------------------
 @app.route("/api/run/head_coach")
@@ -57,7 +73,6 @@ def api_head_coach():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
 @app.route("/api/run/gm")
 def api_gm():
     try:
@@ -69,7 +84,6 @@ def api_gm():
         return jsonify(result)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 @app.route("/api/run/waiver")
 def api_waiver():
@@ -83,7 +97,6 @@ def api_waiver():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
 @app.route("/api/run/scout")
 def api_scout():
     try:
@@ -91,14 +104,11 @@ def api_scout():
         odds = utils_core.fetch_vegas_odds()
         weather = utils_core.fetch_weather_data()
         opponent = None
-        result = scout_logic.run_scout_logic(
-            opponent if opponent else roster, odds, weather
-        )
+        result = scout_logic.run_scout_logic(opponent if opponent else roster, odds, weather)
         save_run_to_db("scout", result)
         return jsonify(result)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 @app.route("/api/run/learning")
 def api_learning():
@@ -108,7 +118,6 @@ def api_learning():
         return jsonify(result)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 @app.route("/api/run/nightly")
 def api_nightly():
@@ -120,9 +129,7 @@ def api_nightly():
         head = team_logic.run_head_coach_logic(roster, odds, weather, opponent)
         gm = general_manager_logic.run_general_manager_logic(roster, odds, weather)
         waiver = waiver_logic.run_waiver_logic(roster, odds, weather)
-        scout = scout_logic.run_scout_logic(
-            opponent if opponent else roster, odds, weather
-        )
+        scout = scout_logic.run_scout_logic(opponent if opponent else roster, odds, weather)
         learn = learning.refine_strategy()
         results = {
             "timestamp": datetime.utcnow().isoformat(),
@@ -137,7 +144,6 @@ def api_nightly():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
 @app.route("/api/decree")
 def api_decree():
     try:
@@ -148,9 +154,7 @@ def api_decree():
         head = team_logic.run_head_coach_logic(roster, odds, weather, opponent)
         gm = general_manager_logic.run_general_manager_logic(roster, odds, weather)
         waiver = waiver_logic.run_waiver_logic(roster, odds, weather)
-        scout = scout_logic.run_scout_logic(
-            opponent if opponent else roster, odds, weather
-        )
+        scout = scout_logic.run_scout_logic(opponent if opponent else roster, odds, weather)
         learn = learning.refine_strategy()
         bundle = {
             "head_coach": head,
@@ -166,7 +170,6 @@ def api_decree():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
 @app.route("/api/history")
 def api_history():
     try:
@@ -181,22 +184,18 @@ def api_history():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
 @app.route("/api/season")
 def api_season():
     try:
         conn = get_db_conn()
         cur = conn.cursor()
-        cur.execute(
-            "SELECT payload FROM runs WHERE kind='head_coach' ORDER BY ts DESC LIMIT 100"
-        )
+        cur.execute("SELECT payload FROM runs WHERE kind='head_coach' ORDER BY ts DESC LIMIT 100")
         rows = cur.fetchall()
         cur.close()
         conn.close()
         win_probs = [
             r[0].get("logic", {}).get("win_prob", 0.5)
-            for r in rows
-            if isinstance(r[0], dict)
+            for r in rows if isinstance(r[0], dict)
         ]
         if not win_probs:
             return jsonify({"error": "no data"})
@@ -212,7 +211,6 @@ def api_season():
         return jsonify(outlook)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
