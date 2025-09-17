@@ -1,70 +1,45 @@
-import os, json, subprocess, openai, anthropic
+import os, logging
+from openai import OpenAI
+import anthropic, requests
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
 
-
-def ask_claude(role, logic):
+def _ask_claude(prompt, max_tokens=512):
+    if not ANTHROPIC_API_KEY: return {"model":"claude","error":"no_key"}
     try:
         client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        prompt = f"As {role}, analyze this fantasy football JSON and give strategy: {json.dumps(logic)[:2000]}"
-        r = client.messages.create(
-            model="claude-3-haiku-20240307",
-            max_tokens=350,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return r.content[0].text.strip()
-    except Exception as e:
-        return f"Claude failed: {e}"
+        resp = client.messages.create(model="claude-3-haiku-20240307",max_tokens=max_tokens,
+                                      messages=[{"role":"user","content":prompt}])
+        return {"model":"claude","text":resp.content[0].text}
+    except Exception as e: return {"model":"claude","error":str(e)}
 
-
-def ask_gpt(role, logic):
+def _ask_openai(prompt, max_tokens=512):
+    if not OPENAI_API_KEY: return {"model":"openai","error":"no_key"}
     try:
-        openai.api_key = OPENAI_API_KEY
-        prompt = f"As {role}, analyze this fantasy football JSON and give strategy: {json.dumps(logic)[:2000]}"
-        r = openai.ChatCompletion.create(
-            model="gpt-4o-mini",
-            max_tokens=250,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return r["choices"][0]["message"]["content"].strip()
-    except Exception as e:
-        return f"GPT-4o failed: {e}"
+        client = OpenAI(api_key=OPENAI_API_KEY)
+        resp = client.chat.completions.create(model="gpt-4o-mini",
+                    messages=[{"role":"user","content":prompt}],max_tokens=max_tokens)
+        return {"model":"openai","text":resp.choices[0].message.content}
+    except Exception as e: return {"model":"openai","error":str(e)}
 
-
-def ask_ollama(role, logic):
+def _ask_ollama(prompt, max_tokens=512):
     try:
-        prompt = f"As {role}, analyze this fantasy football JSON and give strategy: {json.dumps(logic)[:2000]}"
-        r = subprocess.run(
-            ["ollama", "run", "llama3.1", prompt],
-            capture_output=True,
-            text=True,
-            timeout=45,
-        )
-        return r.stdout.strip()[:600]
-    except Exception as e:
-        return f"Ollama failed: {e}"
+        r = requests.post("http://localhost:11434/api/generate",
+                          json={"model":OLLAMA_MODEL,"prompt":prompt,"stream":False})
+        if r.ok:
+            return {"model":"ollama","text":r.json().get("response","")}
+        return {"model":"ollama","error":r.text}
+    except Exception as e: return {"model":"ollama","error":str(e)}
 
-
-def consensus_text(responses):
-    base = responses.get("claude", "")
-    gpt = responses.get("gpt4o", "")
-    oll = responses.get("ollama", "")
-    consensus = "Claude verdict: " + base
-    if gpt and not gpt.lower().startswith("gpt-4o failed"):
-        consensus += " | GPT adds: " + gpt
-    if oll and not oll.lower().startswith("ollama failed"):
-        consensus += " | Ollama adds: " + oll
-    return consensus[:1500]
-
-
-def consult_council(role, logic):
-    claude = ask_claude(role, logic)
-    gpt = ask_gpt(role, logic)
-    ollama = ask_ollama(role, logic)
-    return {
-        "claude": claude,
-        "gpt4o": gpt,
-        "ollama": ollama,
-        "consensus": consensus_text({"claude": claude, "gpt4o": gpt, "ollama": ollama}),
-    }
+def consult_council(role, bundle):
+    prompt = f"You are the {role}. Inputs:\n{bundle}\nGive final decree JSON with keys: decision, rationale."
+    results = []
+    results.append(_ask_claude(prompt))
+    results.append(_ask_openai(prompt))
+    results.append(_ask_ollama(prompt))
+    decree = {"council":results}
+    votes = [r.get("text","") for r in results if "text" in r]
+    decree["decree"] = votes[0] if votes else "no consensus"
+    return decree

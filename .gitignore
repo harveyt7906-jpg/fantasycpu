@@ -1,5 +1,32 @@
-venv/
+# Environment
+.env
+*.env
+yahoo_token.json
+
+# Python
 __pycache__/
 *.pyc
-.env
-yahoo_token.json
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Virtualenv
+venv/
+.venv/
+
+# Node / React
+node_modules/
+build/
+dist/
+*.lock
+
+# OS files
+.DS_Store
+Thumbs.db
