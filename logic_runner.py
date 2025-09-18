@@ -1,18 +1,12 @@
 #!/usr/bin/env python3
-import argparse
-import sys
-import os
-import json
+import argparse, sys, os, json
 from datetime import datetime
 
-# Import WatsonAristotle logic modules
-from team_logic import run_team_analysis
-from waiver_logic import run_general_manager_logic
-from scout_logic import run_scout_logic
+import utils_core, team_logic, general_manager_logic, waiver_logic, scout_logic, learning
+from trade_logic import run_trade_logic
 
 OUT_DIR = "out"
 os.makedirs(OUT_DIR, exist_ok=True)
-
 
 def save_results(role: str, results: dict):
     ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
@@ -24,69 +18,72 @@ def save_results(role: str, results: dict):
     except Exception as e:
         print(f" Could not save {role} results:", e)
 
-
 def run_head_coach():
-    print(" Running Head Coach logic (WatsonAristotle)")
-    try:
-        results = run_team_analysis()
-        print(" Head Coach results:", results)
-        save_results("head_coach", results)
-    except Exception as e:
-        print(" Head Coach failed:", e)
-
+    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    results = team_logic.run_head_coach_logic(roster, odds, weather, None)
+    save_results("head_coach", results)
+    return results
 
 def run_general_manager():
-    print(" Running General Manager logic (WatsonAristotle)")
-    try:
-        results = run_general_manager_logic()
-        print(" GM results:", results)
-        save_results("general_manager", results)
-    except Exception as e:
-        print(" General Manager failed:", e)
+    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    results = general_manager_logic.run_general_manager_logic(roster, odds, weather)
+    save_results("general_manager", results)
+    return results
 
+def run_waiver():
+    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    results = waiver_logic.run_waiver_logic(roster, odds, weather)
+    save_results("waiver", results)
+    return results
 
 def run_scout():
-    print(" Running Scout logic (WatsonAristotle)")
-    try:
-        results = run_scout_logic()
-        print(" Scout results:", results)
-        save_results("scout", results)
-    except Exception as e:
-        print(" Scout failed:", e)
+    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    results = scout_logic.run_scout_logic(roster, odds, weather)
+    save_results("scout", results)
+    return results
 
+def run_trade():
+    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    results = run_trade_logic(roster, odds, weather)
+    save_results("trade", results)
+    return results
+
+def run_learning():
+    results = learning.refine_strategy()
+    save_results("learning", results)
+    return results
 
 def run_all():
-    print(" Running full WatsonAristotle tri-cameral AI (HC + GM + Scout)")
-    run_head_coach()
-    run_general_manager()
-    run_scout()
-
+    return {
+        "head_coach": run_head_coach(),
+        "gm": run_general_manager(),
+        "waiver": run_waiver(),
+        "scout": run_scout(),
+        "trade": run_trade(),
+        "learning": run_learning(),
+    }
 
 def main():
-    parser = argparse.ArgumentParser(description="WatsonAristotle Logic Runner")
-    parser.add_argument("--hc", action="store_true", help="Run Head Coach logic only")
-    parser.add_argument(
-        "--gm", action="store_true", help="Run General Manager logic only"
-    )
-    parser.add_argument("--scout", action="store_true", help="Run Scout logic only")
-    parser.add_argument(
-        "--all", action="store_true", help="Run all 3 roles (HC + GM + Scout)"
-    )
-
+    parser = argparse.ArgumentParser(description="Thanos Rune Logic Runner")
+    parser.add_argument("--hc", action="store_true", help="Run Head Coach only")
+    parser.add_argument("--gm", action="store_true", help="Run GM only")
+    parser.add_argument("--waiver", action="store_true", help="Run Waiver only")
+    parser.add_argument("--scout", action="store_true", help="Run Scout only")
+    parser.add_argument("--trade", action="store_true", help="Run Trade only")
+    parser.add_argument("--learning", action="store_true", help="Run Learning only")
+    parser.add_argument("--all", action="store_true", help="Run all roles")
     args = parser.parse_args()
 
-    if args.hc:
-        run_head_coach()
-    elif args.gm:
-        run_general_manager()
-    elif args.scout:
-        run_scout()
-    elif args.all:
-        run_all()
+    if args.hc: run_head_coach()
+    elif args.gm: run_general_manager()
+    elif args.waiver: run_waiver()
+    elif args.scout: run_scout()
+    elif args.trade: run_trade()
+    elif args.learning: run_learning()
+    elif args.all: run_all()
     else:
-        print(" Please provide one of: --hc, --gm, --scout, --all")
+        print(" Please provide one of: --hc, --gm, --waiver, --scout, --trade, --learning, --all")
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
