@@ -5,7 +5,7 @@ from team_logic import run_team_logic
 from waiver_logic import run_general_manager_logic
 from scout_logic import run_scout_logic
 from head_coach_logic import run_head_coach
-from utils_core import load_roster, fetch_weather_data, fetch_vegas_odds
+from utils_core import load_roster, fetch_weather_data, fetch_odds
 from learning import run_learning_cycle
 
 load_dotenv()
@@ -28,14 +28,12 @@ def static_proxy(path):
 
 @app.route("/api/health", methods=["GET"])
 def health():
-    return jsonify({"status": "ok"})
-
-
+    return {"ok": True, "status": "healthy"}, 200
 @app.route("/api/team", methods=["GET"])
 def team():
     roster = load_roster()
     weather = fetch_weather_data()
-    odds = fetch_vegas_odds()
+    odds = fetch_odds()
     result = run_team_logic(roster, weather, odds)
     return jsonify(result)
 
