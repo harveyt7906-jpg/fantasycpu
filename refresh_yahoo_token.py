@@ -13,6 +13,7 @@ ENV_PATH = ".env"
 TOKEN_URL = "https://api.login.yahoo.com/oauth2/get_token"
 JSON_PATH = "yahoo_token.json"
 
+
 def refresh():
     if not (CLIENT_ID and CLIENT_SECRET and REFRESH_TOKEN):
         return {"error": "Missing CLIENT_ID, CLIENT_SECRET, or REFRESH_TOKEN in .env"}
@@ -64,6 +65,7 @@ def refresh():
         json.dump(payload, f, indent=2)
 
     return {"status": "ok", "saved_to": [ENV_PATH, JSON_PATH]}
+
 
 if __name__ == "__main__":
     result = refresh()

@@ -8,6 +8,7 @@ from trade_logic import run_trade_logic
 OUT_DIR = "out"
 os.makedirs(OUT_DIR, exist_ok=True)
 
+
 def save_results(role: str, results: dict):
     ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     filename = os.path.join(OUT_DIR, f"{role}_{ts}.json")
@@ -18,40 +19,67 @@ def save_results(role: str, results: dict):
     except Exception as e:
         print(f" Could not save {role} results:", e)
 
+
 def run_head_coach():
-    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    roster, odds, weather = (
+        utils_core.load_roster(),
+        utils_core.fetch_vegas_odds(),
+        utils_core.fetch_weather_data(),
+    )
     results = team_logic.run_head_coach_logic(roster, odds, weather, None)
     save_results("head_coach", results)
     return results
 
+
 def run_general_manager():
-    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    roster, odds, weather = (
+        utils_core.load_roster(),
+        utils_core.fetch_vegas_odds(),
+        utils_core.fetch_weather_data(),
+    )
     results = general_manager_logic.run_general_manager_logic(roster, odds, weather)
     save_results("general_manager", results)
     return results
 
+
 def run_waiver():
-    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    roster, odds, weather = (
+        utils_core.load_roster(),
+        utils_core.fetch_vegas_odds(),
+        utils_core.fetch_weather_data(),
+    )
     results = waiver_logic.run_waiver_logic(roster, odds, weather)
     save_results("waiver", results)
     return results
 
+
 def run_scout():
-    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    roster, odds, weather = (
+        utils_core.load_roster(),
+        utils_core.fetch_vegas_odds(),
+        utils_core.fetch_weather_data(),
+    )
     results = scout_logic.run_scout_logic(roster, odds, weather)
     save_results("scout", results)
     return results
 
+
 def run_trade():
-    roster, odds, weather = utils_core.load_roster(), utils_core.fetch_vegas_odds(), utils_core.fetch_weather_data()
+    roster, odds, weather = (
+        utils_core.load_roster(),
+        utils_core.fetch_vegas_odds(),
+        utils_core.fetch_weather_data(),
+    )
     results = run_trade_logic(roster, odds, weather)
     save_results("trade", results)
     return results
+
 
 def run_learning():
     results = learning.refine_strategy()
     save_results("learning", results)
     return results
+
 
 def run_all():
     return {
@@ -62,6 +90,7 @@ def run_all():
         "trade": run_trade(),
         "learning": run_learning(),
     }
+
 
 def main():
     parser = argparse.ArgumentParser(description="Thanos Rune Logic Runner")
@@ -74,16 +103,26 @@ def main():
     parser.add_argument("--all", action="store_true", help="Run all roles")
     args = parser.parse_args()
 
-    if args.hc: run_head_coach()
-    elif args.gm: run_general_manager()
-    elif args.waiver: run_waiver()
-    elif args.scout: run_scout()
-    elif args.trade: run_trade()
-    elif args.learning: run_learning()
-    elif args.all: run_all()
+    if args.hc:
+        run_head_coach()
+    elif args.gm:
+        run_general_manager()
+    elif args.waiver:
+        run_waiver()
+    elif args.scout:
+        run_scout()
+    elif args.trade:
+        run_trade()
+    elif args.learning:
+        run_learning()
+    elif args.all:
+        run_all()
     else:
-        print(" Please provide one of: --hc, --gm, --waiver, --scout, --trade, --learning, --all")
+        print(
+            " Please provide one of: --hc, --gm, --waiver, --scout, --trade, --learning, --all"
+        )
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

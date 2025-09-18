@@ -2,6 +2,7 @@ import utils_core
 import numpy as np
 from datetime import datetime
 
+
 def run_trade_logic(roster, odds, weather, free_agents=None, opponents=None):
     try:
         fa = free_agents if free_agents else utils_core.fetch_free_agents()
@@ -22,13 +23,15 @@ def run_trade_logic(roster, odds, weather, free_agents=None, opponents=None):
                 if pos in needs and val < np.mean(list(roster_vals.values())):
                     target = _find_upgrade(fa_vals, pos)
                     if target:
-                        proposals.append({
-                            "partner": o["team"],
-                            "give": utils_core.lookup_player(pid),
-                            "get": target,
-                            "rationale": f"Trade with {o['team']} improves {pos}: "
-                                         f"give {pid}, get {target['id']} ({target['name']})"
-                        })
+                        proposals.append(
+                            {
+                                "partner": o["team"],
+                                "give": utils_core.lookup_player(pid),
+                                "get": target,
+                                "rationale": f"Trade with {o['team']} improves {pos}: "
+                                f"give {pid}, get {target['id']} ({target['name']})",
+                            }
+                        )
 
         return {
             "timestamp": datetime.utcnow().isoformat(),
@@ -38,6 +41,7 @@ def run_trade_logic(roster, odds, weather, free_agents=None, opponents=None):
 
     except Exception as e:
         return {"error": str(e)}
+
 
 def _player_value(player, odds, weather):
     base = player.get("projection", 0.0)
@@ -52,6 +56,7 @@ def _player_value(player, odds, weather):
 
     return base + odds_boost - weather_penalty
 
+
 def _assess_needs(roster, odds, weather):
     vals = [_player_value(p, odds, weather) for p in roster]
     if not vals:
@@ -63,11 +68,15 @@ def _assess_needs(roster, odds, weather):
             needs.append(_pos_from_id(p["id"]))
     return set(needs)
 
+
 def _find_upgrade(fa_vals, pos):
-    candidates = [utils_core.lookup_player(pid) for pid in fa_vals if _pos_from_id(pid) == pos]
+    candidates = [
+        utils_core.lookup_player(pid) for pid in fa_vals if _pos_from_id(pid) == pos
+    ]
     candidates = [c for c in candidates if c]  # filter None
     candidates = sorted(candidates, key=lambda p: fa_vals.get(p["id"], 0), reverse=True)
     return candidates[0] if candidates else None
+
 
 def _pos_from_id(pid):
     try:
