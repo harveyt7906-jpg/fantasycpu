@@ -1,24 +1,16 @@
-import utils_core, numpy as np
-from thanos_council import consult_council
+import utils_core, random
 
 
-def run_waiver_logic(roster, odds, weather, replacement_level=8):
-    moves = []
-    try:
-        sleeper = utils_core.fetch_sleeper_players()
-        for pid, p in list(sleeper.items())[:50]:
-            proj = 10 + np.random.normal(0, 3)
-            if proj > replacement_level:
-                moves.append(
-                    {
-                        "add": p.get("full_name", "?"),
-                        "pos": p.get("position"),
-                        "proj": proj,
-                        "delta": proj - replacement_level,
-                    }
-                )
-    except:
-        pass
-    ranked = sorted(moves, key=lambda x: x["delta"], reverse=True)[:10]
-    council = consult_council("waiver", ranked)
-    return {"role": "waiver", "logic": ranked, "council": council}
+def run_waiver_logic(roster, odds, weather):
+    recs = []
+    if odds and "data" in odds:
+        recs.append({"player": "FA_BoomWR", "score": random.uniform(0.6, 0.9)})
+    if weather and weather.get("wind") and weather["wind"] > 20:
+        recs.append({"player": "FA_RB_Grinder", "score": random.uniform(0.5, 0.7)})
+    if not recs:
+        recs.append({"player": "Hold", "score": 0.5})
+    return {
+        "role": "waiver",
+        "waiver_recs": recs,
+        "rationale": "Rune scoring system rates FA pickups and decoy claims",
+    }
