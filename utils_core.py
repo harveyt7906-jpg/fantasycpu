@@ -221,6 +221,28 @@ def fetch_oddsapi():
     except Exception as e:
         return {"error": str(e)}
 
+
+def fetch_free_agents(week=1):
+    if not os.path.exists(YAHOO_TOKEN_FILE):
+        return {"error": "no_token"}
+    with open(YAHOO_TOKEN_FILE, "r") as f:
+        token_data = json.load(f)
+    access_token = token_data.get("access_token")
+    if not access_token or not YAHOO_LEAGUE_ID:
+        return {"error": "missing_token_or_league"}
+    url = f"https://fantasysports.yahooapis.com/fantasy/v2/league/{YAHOO_LEAGUE_ID}/players;status=FA;count=50?format=json"
+    headers = {"Authorization": f"Bearer {access_token}", "Accept": "application/json"}
+    try:
+        resp = requests.get(url, headers=headers, timeout=12)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception as e:
+        return {"error": str(e)}
+
+
+def lookup_player(player_id):
+    return {"id": player_id, "name": player_id.split("_")[-1]}
+
 def fetch_free_agents(week=1):
     if not os.path.exists(YAHOO_TOKEN_FILE):
         return {"error": "no_token"}
