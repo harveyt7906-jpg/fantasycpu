@@ -1,33 +1,58 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function App() {
-  const [nightly, setNightly] = useState(null);
-  const [trade, setTrade] = useState(null);
-  const [season, setSeason] = useState(null);
+  const [headCoach, setHeadCoach] = useState(null);
+  const [gm, setGm] = useState(null);
+  const [scout, setScout] = useState(null);
+  const [defense, setDefense] = useState(null);
+  const [psycho, setPsycho] = useState(null);
+  const [decree, setDecree] = useState(null);
 
   useEffect(() => {
-    fetch("/api/run/nightly")
-      .then((res) => res.json())
-      .then((d) => setNightly(d));
-
-    fetch("/api/run/trade")
-      .then((res) => res.json())
-      .then((d) => setTrade(d));
-
-    fetch("/api/season")
-      .then((res) => res.json())
-      .then((d) => setSeason(d));
+    fetch("/api/run/head_coach").then(r => r.json()).then(setHeadCoach);
+    fetch("/api/run/general_manager").then(r => r.json()).then(setGm);
+    fetch("/api/run/scout").then(r => r.json()).then(setScout);
+    fetch("/api/run/defense").then(r => r.json()).then(setDefense);
+    fetch("/api/run/psycho").then(r => r.json()).then(setPsycho);
+    fetch("/api/decree").then(r => r.json()).then(setDecree);
   }, []);
 
   return (
-    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>FantasyCPU Dashboard</h1>
-      <h2>Nightly Logic</h2>
-      <pre>{JSON.stringify(nightly, null, 2)}</pre>
-      <h2>Trade Logic</h2>
-      <pre>{JSON.stringify(trade, null, 2)}</pre>
-      <h2>Season Outlook</h2>
-      <pre>{JSON.stringify(season, null, 2)}</pre>
+    <div className="newspaper">
+      <header>
+        <h1>FantasyCPU Times</h1>
+        <p>{new Date().toLocaleDateString()}</p>
+      </header>
+
+      <section>
+        <h2>Head Coach Report</h2>
+        <pre>{JSON.stringify(headCoach, null, 2)}</pre>
+      </section>
+
+      <section>
+        <h2>General Manager Memo</h2>
+        <pre>{JSON.stringify(gm, null, 2)}</pre>
+      </section>
+
+      <section>
+        <h2>Scout’s Notes</h2>
+        <pre>{JSON.stringify(scout, null, 2)}</pre>
+      </section>
+
+      <section>
+        <h2>Defensive Coordinator</h2>
+        <pre>{JSON.stringify(defense, null, 2)}</pre>
+      </section>
+
+      <section>
+        <h2>Opponent Psychoanalyst</h2>
+        <pre>{JSON.stringify(psycho, null, 2)}</pre>
+      </section>
+
+      <section className="council">
+        <h2>⚖️ Council Ruling</h2>
+        <pre>{JSON.stringify(decree, null, 2)}</pre>
+      </section>
     </div>
   );
 }
