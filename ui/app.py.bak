@@ -30,7 +30,6 @@ def static_proxy(path):
 def health():
     return {"ok": True, "status": "healthy"}, 200
 
-
 @app.route("/api/team", methods=["GET"])
 def team():
     roster = load_roster()
